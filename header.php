@@ -55,9 +55,14 @@
             </ul>
           </li>
           <li ><a href="#contact">Day Trips </a></li>
-          <li ><a href="#contact">Contact Us</a></li>
+          <li ><a href="#contact">Contact Us</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+
+          <button type="submit" style="width: 140px; height: 60px; background: white; border-radius: 10px; transition-duration: 0.4s; color: blue;">Book Now</button>
 
         </ul>
+       
+
+        
       </nav><!-- .nav-menu -->
 
     </div>
@@ -67,7 +72,7 @@
 
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-  <div id="preloader"></div>
+  <!-- <div id="preloader"></div> -->
 
 
 </body>
