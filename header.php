@@ -24,6 +24,7 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -56,6 +57,7 @@
           </li>
           <li ><a href="">Day Trips </a></li>
           <li ><a href="">Contact Us</a></li>
+          <li ><a href=""><i class="fas fa-shopping-cart fa-lg"></i></a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
