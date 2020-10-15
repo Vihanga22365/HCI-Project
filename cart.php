@@ -16,6 +16,7 @@ $connect = mysqli_connect($hostname,$username ,$password,$databaseName);
 $query = "SELECT * FROM cart";
 
 $result = mysqli_query($connect, $query);
+include'header.php';
 
 
 ?>
@@ -25,8 +26,23 @@ $result = mysqli_query($connect, $query);
 </head>
 <body>
 
-  <div class="row">
-      <img src="img/kandy.png" style="width: 1500px; height: 300px;">
+ 
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Cart</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs Section -->
+
+    <div class="section-title" style="margin-top: 3%;">
+                  <h2>Cart</h2>
     </div>
 
 
@@ -105,7 +121,7 @@ if(mysqli_num_rows($result)>0){
    		<h5>Class</h5>
    		<div class="row">
    			<div class="col-lg-2"></div>
-   			<div class="col-lg-10" style="margin-top: 2px;">
+   			<div class="col-lg-10" style="margin-top: 25px;">
    			<select class="browser-default custom-select" name="cls">
    				<option>1st</option>
    				<option>2bd</option>
@@ -118,11 +134,11 @@ if(mysqli_num_rows($result)>0){
    		
    	</div>
    	<div class="col-lg-2" style="margin-top: 25px;">
-   		<a href="#" class="btn btn-outline-primary">Book Now</a>
+   		<a href="#" class="btn btn-primary">Book Now</a>
    	</div>
    		<div id="delayMsg" class="col-lg-2" style="margin-top: 25px;">
    			
-       		 <input type="submit" name="submit" class="btn btn-danger" value="Add To Cart" onclick="delayRedirect();"> 
+       		 <input type="submit" name="submit" class="btn btn-danger" value="Remove"> 
    	</div>
    	
 
@@ -141,9 +157,14 @@ if(mysqli_num_rows($result)>0){
   </div>
 
 </div>
+
 </form>
+
  <?php }
   ?>
-
+<div>
+  <a href="mode.php" class="btn btn-primary" style="margin-bottom: 5%; margin-top: 2%; margin-left: 1%;"> back</a>
+</div>
 </body>
+<?php include'footer.php'; ?>
 </html>
