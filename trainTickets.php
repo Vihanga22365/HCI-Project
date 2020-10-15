@@ -6,6 +6,7 @@
 
     <!-- Bootstrap core CSS -->
 <<<<<<< HEAD
+<<<<<<< HEAD
     <!-- <link href="assets1/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
 
 
@@ -19,10 +20,15 @@
         }
     </style>
 =======
+=======
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
     <link href="assets1/bootstrap/css/bootstrap.css" rel="stylesheet">
 
 
     <link href="assets1/css/style.css" rel="stylesheet">
+<<<<<<< HEAD
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
+=======
 >>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
 </head>
@@ -40,7 +46,11 @@
       <ol>
         <li><a href="index.html">Home</a></li>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <li>Train Tickets</li>
+=======
+        <li>Coach Tours</li>
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 =======
         <li>Coach Tours</li>
 >>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
@@ -53,10 +63,13 @@
 <section class="inner-page" style="padding:0;">
 		
 <<<<<<< HEAD
+<<<<<<< HEAD
 
    
     <div class="main-container inner-page">
 =======
+=======
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
                 </div>
     <div class="intro-inner">
         <div class="about-intro" style="
@@ -88,6 +101,9 @@
     </div>
    
     <<div class="main-container inner-page">
+<<<<<<< HEAD
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
+=======
 >>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
         <div class="container">
             <div class="section-content">
@@ -95,6 +111,7 @@
                 </div>
                <div class="container-content">
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <div class="inner-box " >
 
@@ -105,10 +122,15 @@
                         </div>
 
 =======
+=======
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
                 <div class="inner-box " style="background-color:whitesmoke;>
 
                         <h2>
 
+<<<<<<< HEAD
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
+=======
 >>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
                         <p ><strong><h4> How its works?</h4> </strong></p>
                         <ul class="list-dot">
@@ -136,6 +158,7 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                      
                     <div class="container">
                         <div class="row">
@@ -143,6 +166,11 @@
                             <div class="col-sm-6 col-md-6 col-lg-6" align="center"><a href="" class="btn btn-primary" style="width: 60%;">FAQ</a></div>
                         </div>
                     </div>
+=======
+                     <button type="submit" style="width: 200px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">Terms & Conditions</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                
+                     <button type="submit" style="width: 150px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">FAQ</button>
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 =======
                      <button type="submit" style="width: 200px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">Terms & Conditions</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                                 
@@ -1035,7 +1063,11 @@
                         <br>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <img src ="images/Sri-Lanka-train-map.jpg" style="width: 400px; height: 500px; margin-left: 50px; margin-bottom: 3%;">
+=======
+                        <img src ="images/Sri-Lanka-train-map.jpg" style="width: 400px; height: 500px; margin-left: 50px;">
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 =======
                         <img src ="images/Sri-Lanka-train-map.jpg" style="width: 400px; height: 500px; margin-left: 50px;">
 >>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
@@ -1073,7 +1105,11 @@
     </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
  <?php include('footer.php');?>
+=======
+
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 =======
 
 >>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db

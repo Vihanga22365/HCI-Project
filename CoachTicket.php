@@ -8,6 +8,7 @@
 
     <!-- Bootstrap core CSS -->
 <<<<<<< HEAD
+<<<<<<< HEAD
     <!-- <link href="assets1/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
 
 
@@ -21,10 +22,15 @@
         }
     </style>
 =======
+=======
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
     <link href="assets1/bootstrap/css/bootstrap.css" rel="stylesheet">
 
 
     <link href="assets1/css/style.css" rel="stylesheet">
+<<<<<<< HEAD
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
+=======
 >>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
 </head>
@@ -41,7 +47,11 @@
         <div class="d-flex justify-content-between align-items-center">
           <ol>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <li><a href="index.html">Home
+=======
+            <li><a href="index.html">Homebg
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 =======
             <li><a href="index.html">Homebg
 >>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
@@ -58,8 +68,11 @@
       
 		
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
+=======
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
                 </div>
     <div class="intro-inner">
         <div class="about-intro" style="
@@ -90,6 +103,9 @@
         </div>
 
     </div>
+<<<<<<< HEAD
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
+=======
 >>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
    
     <<div class="main-container inner-page">
@@ -103,10 +119,15 @@
 
                         <h2>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <div class="section-title">
                           <h2>Coach tickets </h2>
                         </div>
                         <!-- <p ><strong><h4> Coach tickets</h4> </strong></p> -->
+=======
+
+                        <p ><strong><h4> Coach tickets</h4> </strong></p>
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 =======
 
                         <p ><strong><h4> Coach tickets</h4> </strong></p>
@@ -126,6 +147,7 @@
                         <p><strong><h4> Please note: All the bookings are subject to the availability of SLR. If we are unable to book your tickets due to the availability, we will refund you fully.  </h4> </strong></p>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- <button type="submit" style="width: 250px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">Terms & Conditions</button> -->
 <!-- <a href="" class="btn btn-primary">Terms & Conditions</a> -->
 <!-- <a href="" class="btn btn-primary">FAQ</a> -->
@@ -138,6 +160,11 @@
 </div>
            
 <!-- <button type="submit" style="width: 150px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">FAQ</button> -->
+=======
+<button type="submit" style="width: 250px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">Terms & Conditions</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+           
+<button type="submit" style="width: 150px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">FAQ</button>
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 =======
 <button type="submit" style="width: 250px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">Terms & Conditions</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
            

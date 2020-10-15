@@ -62,6 +62,9 @@
           <li ><a href="#contact">Contact Us</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
 
           <button type="submit" style="width: 140px; height: 60px; background: white; border-radius: 10px; transition-duration: 0.4s; color: blue;">Book Now</button>
+<<<<<<< HEAD
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
+=======
 >>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
         </ul>

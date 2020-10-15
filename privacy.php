@@ -7,6 +7,7 @@
 
     <!-- Bootstrap core CSS -->
 <<<<<<< HEAD
+<<<<<<< HEAD
     <!-- <link href="assets1/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
 
 
@@ -20,10 +21,15 @@
         }
     </style>
 =======
+=======
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
     <link href="assets1/bootstrap/css/bootstrap.css" rel="stylesheet">
 
 
     <link href="assets1/css/style.css" rel="stylesheet">
+<<<<<<< HEAD
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
+=======
 >>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
 </head>
@@ -52,6 +58,7 @@
 
 	
 <<<<<<< HEAD
+<<<<<<< HEAD
 
    
     <div class="main-container inner-page">
@@ -69,6 +76,8 @@
                     </div>
 
 =======
+=======
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
                 </div>
     <div class="intro-inner">
         <div class="about-intro" style="
@@ -102,6 +111,9 @@
 
                         <h4>
 
+<<<<<<< HEAD
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
+=======
 >>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
                         <p><strong><h2> Introduction</h2> </strong></p>
                         <p>VSLT is committed to protecting and respecting your privacy when you use our services.
@@ -243,6 +255,7 @@
 
                            
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         
 
                                         <div class="container">
@@ -253,6 +266,8 @@
                                             </div>
                                         </div>
 =======
+=======
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
                             
                               <div class="form-group">
                                 <div class="col-sm-offset-3 col-sm-9">
@@ -261,6 +276,9 @@
                                 </div>
                             </div>
                             </form>
+<<<<<<< HEAD
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
+=======
 >>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
 
