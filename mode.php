@@ -129,25 +129,39 @@ $_POST['mode']= $mode;
 body{
   width: 100%;
   height: 100%;
-  background-color: #DCF2F2;
 
 }
 
 </style>
 <body>
+
+      <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Mode</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs Section -->
+
+    <div class="section-title" style="margin-top: 3%;">
+                  <h2>Mode Of Transport </h2>
+    </div>
  
   
-    <div class="row">
-      <img src="img/tr.png" style="width: 1500px;">
-    </div>
 
       
 
   <div class="container">
-    <div class="card" style="margin-top: 5%; background-color: #C2FDD1; border-color: #000387; border-width: 5px;">
+    <div class="card" style="background-color: #C2FDD1; border-color: #000387; border-width: 5px; margin-bottom: 5%;">
     <form  name="form" action="date.php"  method="post" onsubmit="return validateForm()">
 
-  <h1 style="text-align: center; color: #000387;">Mode Of Transport</h1>
+  <h1 style="text-align: center; color: #000387;"></h1>
 
 
 
@@ -196,7 +210,7 @@ body{
         <div class="col-lg-11">
         </div>
         <div class="col-lg-1">
-           <input type="submit" name="submit" class="btn btn-outline-primary" value="Next" > 
+           <input type="submit" name="submit" class="btn btn-primary" value="Next" > 
         </div>
 
        </div>
