@@ -37,27 +37,37 @@
     <div class="container d-flex align-items-center">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html"><span>Visit Sri Lanka Tours</span></a></h1>
+        <h1 class="text-light"><a href="index.php"><span>Visit Sri Lanka Tours</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li  class="active"><a href="index.html"> Home </a></li>
-          <li ><a href="#about"> Place to Visit </a></li>
-          <li ><a href="#features">Tour Details</a></li>
+          <li class="active"><a href="index.php"> Home </a></li>
+          <li ><a href="place_to_visit.php"> Place to Visit </a></li>
+          <li ><a href="">Tour Details</a></li>
           <li  class="drop-down"><a href="">Booking</a>
             <ul>
-              <li><a href="#">Taxi Booking</a></li>
-              <li><a href="#">Coach Ticket</a></li>
-              <li><a href="#">Train Ticket</a></li>
+              <li><a href="">Taxi Booking</a></li>
+              <li><a href="CoachTicket.php">Coach Ticket</a></li>
+              <li><a href="trainTickets.php">Train Ticket</a></li>
             </ul>
           </li>
+<<<<<<< HEAD
+          <li ><a href="">Day Trips </a></li>
+          <li ><a href="">Contact Us</a></li>
+=======
           <li ><a href="#contact">Day Trips </a></li>
-          <li ><a href="#contact">Contact Us</a></li>
+          <li ><a href="#contact">Contact Us</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+
+          <button type="submit" style="width: 140px; height: 60px; background: white; border-radius: 10px; transition-duration: 0.4s; color: blue;">Book Now</button>
+>>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
         </ul>
+       
+
+        
       </nav><!-- .nav-menu -->
 
     </div>
@@ -67,7 +77,7 @@
 
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-  <div id="preloader"></div>
+  <!-- <div id="preloader"></div> -->
 
 
 </body>
