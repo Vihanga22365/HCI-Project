@@ -5,8 +5,6 @@
   
 
     <!-- Bootstrap core CSS -->
-<<<<<<< HEAD
-<<<<<<< HEAD
     <!-- <link href="assets1/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
 
 
@@ -18,17 +16,6 @@
               text-justify: inter-word;
         }
     </style>
-=======
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-    <link href="assets1/bootstrap/css/bootstrap.css" rel="stylesheet">
-
-
-    <link href="assets1/css/style.css" rel="stylesheet">
-<<<<<<< HEAD
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
 </head>
 <body>
@@ -53,8 +40,6 @@
 
 <section class="inner-page" style="padding:0;">
 		
-<<<<<<< HEAD
-<<<<<<< HEAD
 
    
     <div class="main-container inner-page">
@@ -63,44 +48,10 @@
                 <div class="row ">
                     <!-- <h2 class="text-center title-1"> Welcome to Visit Sri Lanka's Terms & Conditions </h2> -->
                     
-=======
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-                </div>
-    <div class="intro-inner">
-        <div class="about-intro" style="
- background:url(images/sri.jpg) no-repeat center; filter: blur(0px); 
-	background-size:cover;" >
-
-            <div class="dtable hw100">
-                <div class="dtable-cell hw100">
-                    <div class="container text-center">
-
-                        <h1 class="intro-title animated fadeInDown"> Terms and Conditions </h1>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-   
-    <<div class="main-container inner-page">
-        <div class="container">
-            <div class="section-content">
-                <div class="row ">
-                    <h2 class="text-center title-1"> Welcome to Visit Sri Lanka's Terms & Conditions </h2>
-<<<<<<< HEAD
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
                     <hr class="center-block small text-hr">
                 </div>
                <div class="container-content">
 
-<<<<<<< HEAD
-<<<<<<< HEAD
                 <div class="inner-box " >
 
                         <h4>
@@ -109,17 +60,6 @@
                           <h2> Welcome to Visit Sri Lanka's Terms & Conditions </h2>
                     </div>
 
-=======
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-                <div class="inner-box " style="background-color:whitesmoke;">
-
-                        <h4>
-
-<<<<<<< HEAD
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
                         <p><strong><h4> This Website Terms and Conditions will apply to all following parties</h4> </strong></p>
 
                         
@@ -397,8 +337,6 @@ If we received your cancellation request after we paid to your accommodation the
                               <p>any accommodation we arrange for you must only be used by those people named on your booking. You are not allowed to share the vehicle or let anyone else to use, you are responsible for the any damage caused to vehicle its contain during your transportation, these charges must be met by you and have to paid locally.</p>
                               <hr>
                               <br>
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 
                               <div class="container">
@@ -409,22 +347,6 @@ If we received your cancellation request after we paid to your accommodation the
                                             </div>
                                         </div>
 
-=======
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-                              <div class="form-group">
-                                <div class="col-sm-offset-3 col-sm-9">
-                                        <a href ="http://localhost/hci/terms.php" button type="submit" class="btn btn-success" >I Agree</button>
-                                        </a>
-                                </div>
-                            </div>
-                            </form>
-
-
-<<<<<<< HEAD
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
 
                        

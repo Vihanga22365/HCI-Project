@@ -6,8 +6,6 @@
   
 
     <!-- Bootstrap core CSS -->
-<<<<<<< HEAD
-<<<<<<< HEAD
     <!-- <link href="assets1/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
 
 
@@ -20,17 +18,6 @@
               text-justify: inter-word;
         }
     </style>
-=======
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-    <link href="assets1/bootstrap/css/bootstrap.css" rel="stylesheet">
-
-
-    <link href="assets1/css/style.css" rel="stylesheet">
-<<<<<<< HEAD
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
 </head>
 <body>
@@ -57,8 +44,6 @@
 
 
 	
-<<<<<<< HEAD
-<<<<<<< HEAD
 
    
     <div class="main-container inner-page">
@@ -75,46 +60,6 @@
                           <h2> Privacy policy </h2>
                     </div>
 
-=======
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-                </div>
-    <div class="intro-inner">
-        <div class="about-intro" style="
- background:url(images/aix.jpg) no-repeat center; filter: blur(0px); 
-	background-size:cover;" >
-
-            <div class="dtable hw100">
-                <div class="dtable-cell hw100">
-                    <div class="container text-center">
-
-                        
-                        <h1 style ="font-size: 40px "><b>Privacy Policy</b></h1>
-
-                        
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-   
-    <div class="main-container inner-page">
-        <div class="container">
-            <div class="section-content">
-               
-               <div class="container-content">
-
-                <div class="inner-box " style="background-color:whitesmoke;">
-
-                        <h4>
-
-<<<<<<< HEAD
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
                         <p><strong><h2> Introduction</h2> </strong></p>
                         <p>VSLT is committed to protecting and respecting your privacy when you use our services.
                             What personal data we collect from you when you use our website,</p>
@@ -254,8 +199,6 @@
 
 
                            
-<<<<<<< HEAD
-<<<<<<< HEAD
                                         
 
                                         <div class="container">
@@ -265,21 +208,6 @@
                                                 </div>
                                             </div>
                                         </div>
-=======
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-                            
-                              <div class="form-group">
-                                <div class="col-sm-offset-3 col-sm-9">
-                                        <a href ="http://localhost/hci/terms.php" button type="submit" class="btn btn-success" >I Agree</button>
-                                        </a>
-                                </div>
-                            </div>
-                            </form>
-<<<<<<< HEAD
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
 
 

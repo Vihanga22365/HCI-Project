@@ -5,8 +5,6 @@
   
 
     <!-- Bootstrap core CSS -->
-<<<<<<< HEAD
-<<<<<<< HEAD
     <!-- <link href="assets1/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
 
 
@@ -19,17 +17,6 @@
               text-justify: inter-word;
         }
     </style>
-=======
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-    <link href="assets1/bootstrap/css/bootstrap.css" rel="stylesheet">
-
-
-    <link href="assets1/css/style.css" rel="stylesheet">
-<<<<<<< HEAD
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
 </head>
 <body>
@@ -45,15 +32,7 @@
     <div class="d-flex justify-content-between align-items-center">
       <ol>
         <li><a href="index.html">Home</a></li>
-<<<<<<< HEAD
-<<<<<<< HEAD
         <li>Train Tickets</li>
-=======
-        <li>Coach Tours</li>
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
-        <li>Coach Tours</li>
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
       </ol>
     </div>
 
@@ -62,57 +41,15 @@
 
 <section class="inner-page" style="padding:0;">
 		
-<<<<<<< HEAD
-<<<<<<< HEAD
 
    
     <div class="main-container inner-page">
-=======
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-                </div>
-    <div class="intro-inner">
-        <div class="about-intro" style="
- background:url(images/p.jpg) no-repeat center; filter: blur(0px); 
-	background-size:cover;" >
-
-            <div class="dtable hw100">
-                <div class="dtable-cell hw100">
-                    <div class="container text-center">
-
-                        <h2 class="intro-title animated fadeInDown" style="font-size: 20px; "><strong> Sri Lanka tours the service like no other </strong></h2>
-                        <br>
-</br>
-</br>
-</br>
-</br>
-<br>
-</br>
-</br>
-</br>
-</br>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-   
-    <<div class="main-container inner-page">
-<<<<<<< HEAD
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
         <div class="container">
             <div class="section-content">
     
                 </div>
                <div class="container-content">
 
-<<<<<<< HEAD
-<<<<<<< HEAD
                 <div class="inner-box " >
 
                         <h2>
@@ -121,17 +58,6 @@
                           <h2> Train Tickets </h2>
                         </div>
 
-=======
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-                <div class="inner-box " style="background-color:whitesmoke;>
-
-                        <h2>
-
-<<<<<<< HEAD
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
                         <p ><strong><h4> How its works?</h4> </strong></p>
                         <ul class="list-dot">
                           <li>The reservation system is open 30 days in advance, therefore we advice you to send your booking more than 30 before the travel date, this will allow us to secure your place as soon as the reservation opened, The earlier you booked, there is greater the chance of securing your seats, but you can send your booking until up to 2 days prior to travel date.</li><br>
@@ -157,8 +83,6 @@
                      <p><strong><h4> Please note: All the bookings are subject to the availability of SLR. If we are unable to book your tickets due to the availability, we will refund you fully.  </h4> </strong></p>
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
                      
                     <div class="container">
                         <div class="row">
@@ -166,16 +90,6 @@
                             <div class="col-sm-6 col-md-6 col-lg-6" align="center"><a href="" class="btn btn-primary" style="width: 60%;">FAQ</a></div>
                         </div>
                     </div>
-=======
-                     <button type="submit" style="width: 200px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">Terms & Conditions</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                                
-                     <button type="submit" style="width: 150px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">FAQ</button>
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
-                     <button type="submit" style="width: 200px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">Terms & Conditions</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                                
-                     <button type="submit" style="width: 150px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">FAQ</button>
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
                      <br>
                    
@@ -1062,15 +976,7 @@
                         </div>
                         <br>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
                         <img src ="images/Sri-Lanka-train-map.jpg" style="width: 400px; height: 500px; margin-left: 50px; margin-bottom: 3%;">
-=======
-                        <img src ="images/Sri-Lanka-train-map.jpg" style="width: 400px; height: 500px; margin-left: 50px;">
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
-                        <img src ="images/Sri-Lanka-train-map.jpg" style="width: 400px; height: 500px; margin-left: 50px;">
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
 
                     </div>
@@ -1104,15 +1010,7 @@
         </div>
     </div>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
  <?php include('footer.php');?>
-=======
-
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
-
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets1/js/jquery/jquery-3.3.1.min.js">\x3C/script>')</script>

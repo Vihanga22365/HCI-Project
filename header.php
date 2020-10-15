@@ -54,23 +54,10 @@
               <li><a href="trainTickets.php">Train Ticket</a></li>
             </ul>
           </li>
-<<<<<<< HEAD
           <li ><a href="">Day Trips </a></li>
           <li ><a href="">Contact Us</a></li>
-=======
-          <li ><a href="#contact">Day Trips </a></li>
-          <li ><a href="#contact">Contact Us</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
-
-          <button type="submit" style="width: 140px; height: 60px; background: white; border-radius: 10px; transition-duration: 0.4s; color: blue;">Book Now</button>
-<<<<<<< HEAD
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
         </ul>
-       
-
-        
       </nav><!-- .nav-menu -->
 
     </div>

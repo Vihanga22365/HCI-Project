@@ -7,8 +7,6 @@
   
 
     <!-- Bootstrap core CSS -->
-<<<<<<< HEAD
-<<<<<<< HEAD
     <!-- <link href="assets1/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
 
 
@@ -21,17 +19,6 @@
               text-justify: inter-word;
         }
     </style>
-=======
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-    <link href="assets1/bootstrap/css/bootstrap.css" rel="stylesheet">
-
-
-    <link href="assets1/css/style.css" rel="stylesheet">
-<<<<<<< HEAD
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
 </head>
 <body>
@@ -46,15 +33,7 @@
 
         <div class="d-flex justify-content-between align-items-center">
           <ol>
-<<<<<<< HEAD
-<<<<<<< HEAD
             <li><a href="index.html">Home
-=======
-            <li><a href="index.html">Homebg
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
-            <li><a href="index.html">Homebg
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
             
             </a></li>
             <li>Coach Tickets</li>
@@ -67,46 +46,7 @@
     <section class="inner-page" style="padding:0;">
       
 		
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-                </div>
-    <div class="intro-inner">
-        <div class="about-intro" style="
- background:url(images/light2.jpg) no-repeat center; filter: blur(0px); 
-	background-size:cover;" >
-
-            <div class="dtable hw100">
-                <div class="dtable-cell hw100">
-                    <div class="container text-center">
-
-                        <h2 class="intro-title animated fadeInDown" style="font-size: 20px;  "><strong> Sri Lanka tours the service like no other </strong></h2>
-                        </br>
-</br>
-</br>
-</br>
-</br>
-<br>
-</br>
-</br>
-</br>
-</br>
-
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-<<<<<<< HEAD
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
    
     <<div class="main-container inner-page">
         <div class="container">
@@ -118,20 +58,10 @@
                 <div class="inner-box ">
 
                         <h2>
-<<<<<<< HEAD
-<<<<<<< HEAD
                         <div class="section-title">
                           <h2>Coach tickets </h2>
                         </div>
                         <!-- <p ><strong><h4> Coach tickets</h4> </strong></p> -->
-=======
-
-                        <p ><strong><h4> Coach tickets</h4> </strong></p>
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
-
-                        <p ><strong><h4> Coach tickets</h4> </strong></p>
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
                         <p style="font-size: 15px;">You can book your coach tickets to travel in Sri Lanka with us, we only have limited seats and journeys, once you send your booking request we will search the availability and contact you with booking confirmation, please note that all the booking are subject to the availability of our coach operator, in the even there is no seat available we will refund you fully, please note that once your seat(s) is/ are confirmed no cancellation / refund possible. </p>
                         <p ><strong><h4> Boarding</h4> </strong></p>
                         <p style="font-size: 15px;">Please arrive at the boarding point / location at least 15 minutes prior to the scheduled departure time, giving enough time to load your luggage etc, failure  arrived on time will treat as no show , (No refund will be given) Please have your passport with you for the boarding </p>
@@ -146,8 +76,6 @@
 
                         <p><strong><h4> Please note: All the bookings are subject to the availability of SLR. If we are unable to book your tickets due to the availability, we will refund you fully.  </h4> </strong></p>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 <!-- <button type="submit" style="width: 250px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">Terms & Conditions</button> -->
 <!-- <a href="" class="btn btn-primary">Terms & Conditions</a> -->
 <!-- <a href="" class="btn btn-primary">FAQ</a> -->
@@ -160,16 +88,6 @@
 </div>
            
 <!-- <button type="submit" style="width: 150px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">FAQ</button> -->
-=======
-<button type="submit" style="width: 250px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">Terms & Conditions</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-           
-<button type="submit" style="width: 150px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">FAQ</button>
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
-<button type="submit" style="width: 250px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">Terms & Conditions</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-           
-<button type="submit" style="width: 150px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">FAQ</button>
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
 <br>
 

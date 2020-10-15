@@ -63,23 +63,10 @@
   
 
     <!-- Bootstrap core CSS -->
-<<<<<<< HEAD
-<<<<<<< HEAD
     <!-- <link href="assets1/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
 
 
     <!-- <link href="assets1/css/style.css" rel="stylesheet"> -->
-=======
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-    <link href="assets1/bootstrap/css/bootstrap.css" rel="stylesheet">
-
-
-    <link href="assets1/css/style.css" rel="stylesheet">
-<<<<<<< HEAD
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
 </head>
 <body>
@@ -104,59 +91,15 @@
 
 <section class="inner-page" style="padding:0;">
 		
-<<<<<<< HEAD
-<<<<<<< HEAD
 
    
     <div class="main-container inner-page">
-=======
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-                </div>
-    <div class="intro-inner">
-        <div class="about-intro" style="
- background:url(images/blogpost_67.jpg) no-repeat center; filter: blur(0px); 
-	background-size:cover;  >
-
-            <div class="dtable hw100">
-                <div class="dtable-cell hw100">
-                    <div class="container text-center">
-
-                        <h2 class="intro-title animated fadeInDown" style="font-size: 20px; color:black; margin-left: 550px;"><strong> Sri Lanka tours the service like no other </strong></h2>
-                        <br>
-</br>
-</br>
-</br>
-</br>
-<br>
-</br>
-</br>
-</br>
-</br>
-
-
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-   
-    <<div class="main-container inner-page">
-<<<<<<< HEAD
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
         <div class="container">
             <div class="section-content">
     
                 </div>
                <div class="container-content">
 
-<<<<<<< HEAD
-<<<<<<< HEAD
                 <div class="inner-box " >
 
                         <h2>
@@ -166,20 +109,6 @@
                         <div class="section-title" style="margin-top: 2%;">
                           <h2>BOOK SEAT IN BEST OF SRI LANKA TOURIST COACH TOUR </h2>
                         </div>
-=======
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-                <div class="inner-box " style="background-color:whitesmoke;">
-
-                        <h2>
-
-                        <p ><strong><h3> BOOK SEAT IN BEST OF SRI LANKA TOURIST COACH TOUR  </h3> </strong></p>
-                        
-
-<<<<<<< HEAD
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
 
                         <p ><strong><h4>  <p ><strong><h4> What is included ? </h4> </strong></p> </h4> </strong></p>
                         <ul class="list-dot">
@@ -202,18 +131,10 @@
                         
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
                         <!-- <button type="submit" style=" background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">Book Coach tour depatrue on 5th or 20th of each month for just $349.00 PP</button> -->
                         <div align="center">
                           <a href="CoachTicket.php" class="btn btn-primary">Book Coach tour depatrue on 5th or 20th of each month for just $349.00 PP</a>
                         </div>
-=======
-                        <button type="submit" style=" background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">Book Coach tour depatrue on 5th or 20th of each month for just $349.00 PP</button>
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
-=======
-                        <button type="submit" style=" background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">Book Coach tour depatrue on 5th or 20th of each month for just $349.00 PP</button>
->>>>>>> 124b09121d763853e828aab53c97ea98fb64a6db
                             </br>
                             </br>
 
