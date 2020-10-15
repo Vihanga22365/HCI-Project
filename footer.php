@@ -46,7 +46,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Day Trips / Excursions</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Taxi Booking</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="place_to_visit.php">Place To Visit</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="coachTours1.php">Coach Tour</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="CoachTicket.php">Coach Tour</a></li>
             </ul>
           </div>
 

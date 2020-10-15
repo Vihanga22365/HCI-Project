@@ -79,6 +79,10 @@
                      PLEASE NOTE THAT SRI LANKAN RAILWAY DOES NOT ACCEPT ANY CANCELLATIONS / REFUND OR DATE / TIME /CLASS /NAME OR ANY OTHER CHANGES. Therefore once you send us your booking or ask us to process with available option, no refund or cancellation possible. Please read the full terms and conditions of booking below.</p></strong>
 
                      <p style="font-size: 15px;">Please note that below fares are including tickets price + service charge + our booking fee and other costs involved to process your tickets,  which means fares are higher than the actual (SLR) ticket price. you can buy base price ticket (s) over the counter at the station.<p style="color: red;">All our bookings come with reserved seats (including 3rd class).</p>
+
+                     <div align="center">
+                            <a href="mode.php" class="btn btn-primary" style="width: 50%;"> Book Train Tickets </a>
+                      </div>
                       
                      <p><strong><h4> Please note: All the bookings are subject to the availability of SLR. If we are unable to book your tickets due to the availability, we will refund you fully.  </h4> </strong></p>
 

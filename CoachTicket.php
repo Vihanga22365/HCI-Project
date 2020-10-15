@@ -74,6 +74,10 @@
                         
                         <br>
 
+                        <div align="center">
+                            <a href="mode.php" class="btn btn-primary" style="width: 50%;"> Book Coach Tickets </a>
+                        </div>
+
                         <p><strong><h4> Please note: All the bookings are subject to the availability of SLR. If we are unable to book your tickets due to the availability, we will refund you fully.  </h4> </strong></p>
 
 <!-- <button type="submit" style="width: 250px; height: 40px; background: green; border-radius: 10px; transition-duration: 0.4s; color: white;">Terms & Conditions</button> -->
