@@ -13,6 +13,12 @@
 		fill:#c9ad0a;
 	}
 	</style>
+	<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
 </head>
 <body>
 
@@ -183,6 +189,15 @@
     </div>
       
   	</section>
+
+  	<div class="container-fluid">
+  		<div class="row">
+  			<div class="col-sm-12 animate__animated animate__pulse animate__infinite	infinite" align="center">
+  				<h4 style="color: blue;"> Click district to view attractive places </h4>
+  			</div>
+  		</div>
+  	</div>
+
   	<section>
 
 
