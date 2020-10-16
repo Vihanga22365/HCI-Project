@@ -301,7 +301,7 @@
                     <input type="text" class="form-control" id="house" placeholder="House Number">
                   </div>
                   <div class="form-group col-sm-6 col-md-6 col-lg-6">
-                    <input type="text" class="form-control" id="post" placeholder="House Number" >
+                    <input type="text" class="form-control" id="post" placeholder="Post Number" >
                   </div>
                 </div>
                 <div class="form-row">
@@ -335,6 +335,17 @@
 
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script type="text/javascript">
+
+    function    isMail(mail){
+
+    pattuser = /^([A-Z0-9_%+\-!#$&'*\/=?^`{|}~]+\.?)*[A-Z0-9_%+\-!#$&'*\/=?^`{|}~]+$/i;
+    pattdomain = /^([A-Z0-9-]+\.?)*[A-Z0-9-]+(\.[A-Z]{2,9})+$/i;
+
+    tab = mail.split("@");
+    if (tab.length != 2)
+        return false;
+    return (pattuser.test(tab[0]) && pattdomain.test(tab[1]));
+  }
     
     function send()
     {
@@ -345,6 +356,7 @@
       var phone = document.getElementById('phone').value;
       var pass = document.getElementById('pass').value;
       var cpass = document.getElementById('cpass').value;
+      var xmail = isMail(email);
 
       if(title == 'Title') {
         Swal.fire({
@@ -370,6 +382,12 @@
           title: 'Error',
           text: 'Please enter email address!',
         })
+      } else if(xmail == false) {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please enter valid email address!',
+        })
       } else if(phone == '') {
         Swal.fire({
           icon: 'error',
@@ -387,6 +405,12 @@
           icon: 'error',
           title: 'Error',
           text: 'Please confirm passport number!',
+        })
+      } else if(pass != cpass) {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Passport number not confirm correctly!',
         })
       } else {
         Swal.fire({
