@@ -179,7 +179,7 @@
 <div id="personal">    
           <div class="row justify-content-center">
             <div class="col-sm-10 col-md-10 col-lg-10 card shadow p-3 mb-5 bg-white rounded">
-              <form class="card-body d-flex flex-column">
+              <div class="card-body d-flex flex-column">
 
                 <div class="section-title">
                   <h4>Personal Details </h4>
@@ -188,9 +188,9 @@
                 <div class="form-row">
                   <div class="form-group col-sm-4 col-md-4 col-lg-4">
                     <select id="title" class="form-control">
-                      <option selected>Title</option>
-                      <option>Mr</option>
-                      <option>Mrs</option>
+                      <option value="Title">Title</option>
+                      <option value="Mr">Mr</option>
+                      <option value="Mrs">Mrs</option>
                     </select>
                   </div>
                   <div class="form-group col-sm-4 col-md-4 col-lg-4">
@@ -218,16 +218,16 @@
                 </div>
                 <div class="form-row">
                   <div class="col-sm-12 col-md-12 col-lg-12" align="center">
-                    <button  class="btn btn-primary mt-auto" style="width: 50%;" onclick="send(); display();"> Submit Personal Details </button>
+                    <button type="submit"  class="btn btn-primary mt-auto" style="width: 50%;" onclick="send();"> Submit Personal Details </button>
                   </div>
                 </div>
-              </form>
+              </div>
             </div>
           </div>
 
   </div>    
 
-  <div id="payment">
+  <div id="payment" style="display: none;">
 
     <section id="contact">
       <div class="container" data-aos="fade-up">
@@ -261,7 +261,7 @@
 
           <div class="row justify-content-center">
             <div class="col-sm-10 col-md-10 col-lg-10 card shadow p-3 mb-5 bg-white rounded">
-              <form class="card-body d-flex flex-column">
+              <div class="card-body d-flex flex-column">
 
                 <div class="section-title">
                   <h4>Card Details </h4>
@@ -270,10 +270,10 @@
                 <div class="form-row">
                   <div class="form-group col-sm-6 col-md-6 col-lg-6">
                     <select id="method" class="form-control">
-                      <option selected>Payment Method</option>
-                      <option>Visa</option>
-                      <option>Master</option>
-                      <option>Discover</option>
+                      <option value="Title">Payment Method</option>
+                      <option value="Visa">Visa</option>
+                      <option value="Master">Master</option>
+                      <option value="Discover">Discover</option>
                     </select>
                   </div>
                   <div class="form-group col-sm-6 col-md-6 col-lg-6">
@@ -301,25 +301,25 @@
                     <input type="text" class="form-control" id="house" placeholder="House Number">
                   </div>
                   <div class="form-group col-sm-6 col-md-6 col-lg-6">
-                    <input type="text" class="form-control" id="post" placeholder="Post Code">
+                    <input type="text" class="form-control" id="post" placeholder="House Number" >
                   </div>
                 </div>
                 <div class="form-row">
                   <div class="form-group col-sm-6 col-md-6 col-lg-6">
                     <label for="exampleFormControlInput1">Expiry Date</label>
-                    <input type="month" class="form-control" id="house" placeholder="CVVr">
+                    <input type="month" class="form-control" id="exp" placeholder="CVV">
                   </div>
                   <div class="form-group col-sm-6 col-md-6 col-lg-6">
                     <label for="exampleFormControlInput1">CVV</label>
-                    <input type="text" class="form-control" id="post" placeholder="Post Code">
+                    <input type="text" class="form-control" id="cvv" >
                   </div>
                 </div>
                 <div class="form-row">
                   <div class="col-sm-12 col-md-12 col-lg-12" align="center">
-                    <button  class="btn btn-primary mt-auto" style="width: 50%;"> Submit Card Details </button>
+                    <button  class="btn btn-primary mt-auto" style="width: 50%;" onclick="send1();"> Submit Card Details </button>
                   </div>
                 </div>
-              </form>
+              </div>
             </div>
           </div>
 
@@ -333,12 +333,157 @@
   <!-- End #main -->
   <?php include 'footer.php';?>
 
-
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script type="text/javascript">
     
     function send()
     {
-      
+      var title = document.getElementById('title').value;
+      var fname = document.getElementById('fname').value;
+      var lname = document.getElementById('lname').value;
+      var email = document.getElementById('email').value;
+      var phone = document.getElementById('phone').value;
+      var pass = document.getElementById('pass').value;
+      var cpass = document.getElementById('cpass').value;
+
+      if(title == 'Title') {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please select title!',
+        })
+      } else if(fname == '') {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please enter first name!',
+        })
+      } else if(lname == '') {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please enter last name!',
+        })
+      } else if(email == '') {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please enter email address!',
+        })
+      } else if(phone == '') {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please enter phone number!',
+        })
+      } else if(pass == '') {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please enter passport number!',
+        })
+      } else if(cpass == '') {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please confirm passport number!',
+        })
+      } else {
+        Swal.fire({
+          icon: 'success',
+          title: 'Thank You',
+          text: 'Successfully saved your personal data.',
+          showConfirmButton: false,
+          timer: 1500
+        })
+        display();
+      }
+
+    }
+
+    function display() {
+      document.getElementById('payment').style.display = 'block';
+      document.getElementById('personal').style.display = 'none';
+    }
+
+    function send1()
+    {
+      var method = document.getElementById('method').value;
+      var cnumber = document.getElementById('cnumber').value;
+      var cfname = document.getElementById('cfname').value;
+      var clname = document.getElementById('clname').value;
+      var country = document.getElementById('country').value;
+      var city = document.getElementById('city').value;
+      var house = document.getElementById('house').value;
+      var post = document.getElementById('post').value;
+      var exp = document.getElementById('exp').value;
+      var cvv = document.getElementById('cvv').value;
+
+      if(method == 'Title') {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please select payment method!',
+        })
+      } else if(cnumber == '') {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please enter card number!',
+        })
+      } else if(cfname == '') {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please enter card first name!',
+        })
+      } else if(clname == '') {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please enter card last name!',
+        })
+      } else if(country == '') {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please enter country!',
+        })
+      } else if(city == '') {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please enter city!',
+        })
+      } else if(house == '') {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please enter house number!',
+        })
+      } else if(post == '') {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please enter post number!',
+        })
+      } else if(cvv == '') {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Please enter cvv code!',
+        })
+      } else {
+        Swal.fire({
+          icon: 'success',
+          title: 'Thank You',
+          text: 'Successfully saved your card data.',
+          showConfirmButton: false,
+          timer: 1500
+        })
+      }
+
+
     }
 
   </script>
