@@ -50,13 +50,13 @@
           <li ><a href="">Tour Details</a></li>
           <li  class="drop-down"><a href="">Booking</a>
             <ul>
-              <li><a href="">Taxi Booking</a></li>
+              <li><a href="booking.php">Taxi Booking</a></li>
               <li><a href="coachTours1.php">Coach Ticket</a></li>
               <li><a href="trainTickets.php">Train Ticket</a></li>
             </ul>
           </li>
           <li ><a href="">Day Trips </a></li>
-          <li ><a href="">Contact Us</a></li>
+          <li ><a href="contact.php">Contact Us</a></li>
 
            
           <li ><a href="cart.php" id="noti_number"><i class="fas fa-shopping-cart fa-lg" ></i></a></li>

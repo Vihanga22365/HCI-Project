@@ -17,27 +17,36 @@
     <!-- Your custom styles (optional) -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></link>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
     <style type="text/css">
     	
   	.container{
   		max-width: 1200px; 
-  		padding-bottom: 5rem; 
+  		
   		width: 100%; 
   		padding-right: 15px; 
   		padding-left: 16px;
-  		margin-right: auto; 
-  		margin-left: auto
+  		margin-right: -100px; 
+  		margin-left: auto;
+
   	}
 
   	#section-heading{
-  		color:#00011a; 
-  		text-transform: uppercase; 
+  		
   		letter-spacing: .05rem; 
   		font-size: 2.4rem;
     	line-height: 3.35rem; 
     	margin: 0 0 1.5rem;
-    	font-family: 'Playfair Display', serif;
+    	font-family: "Montserrat", sans-serif;	
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    position: relative;
+	    color: #37517e;
+	    margin-top: -50px;
   	}
     	
     .section-description{
@@ -46,7 +55,8 @@
     	letter-spacing: .018rem; 
     	margin: 0 0 1.5rem;
     	color: #00011a;
-    	font-family: 'Playfair Display', serif;
+    	font-family: "Montserrat", sans-serif;
+    	font-weight: 500;
     }
 
     .detailsSection{
@@ -54,6 +64,7 @@
     	color: #000000; 
     	padding: 4rem 0; 
     	height: auto;
+
     }
 
     #row{
@@ -61,7 +72,7 @@
     	display: flex; 
     	flex-wrap: wrap; 
     	font-size: 14px; 
-    	margin: -7.2rem 0 -16rem 0!important;
+    	margin: -7.6rem -10px -16rem -10px!important;
     	height: auto;
 
 
@@ -71,20 +82,20 @@
     	letter-spacing: 0.05rem; 
     	font-size: 0.9rem; 
     	line-height: 1.25rem; 
-    	font-weight: 400; 
-    	margin-bottom: 0.4rem; 
+    	font-weight: 500; 
+    	margin-bottom: 4rem; 
     	position: relative
     }
 
     .form{
     	border: 1px solid #ccc; 
     	padding: 2.5rem 2rem; 
-    	margin: 0;
     	position: relative; 
     	background-color: #fff; 
     	color: #100024; 
     	box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.2); 
-    	border-radius: 0 1.5625rem 0 1.5625rem
+    	border-radius: 0 1.5625rem 0 1.5625rem;
+    	margin-left: -15px;
     }
 
     .card-body{
@@ -97,7 +108,7 @@
     	font: inherit; 
     	vertical-align: baseline; 
     	color: inherit;
-    	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    	font-family: "Montserrat", sans-serif;
     }
 
     .form-control{
@@ -121,11 +132,12 @@
     
     .sidebar{
     	margin-top: 7.2rem; 
-    	padding: 0 0 0 1rem; 
+    	padding: 0 0 0 -.5rem; 
     	margin-bottom: 8rem; 
     	color: #ffffff;
+
     
-    	font-family: 'Playfair Display', serif;
+    	
 
     }
 
@@ -151,47 +163,24 @@
     
  </style>
   	
-  	<?php include('header.php'); ?>
+  	
 </head>
-
+<?php include('header.php'); ?>
 <body>
+<!-- ======= Breadcrumbs Section ======= -->
+<section class="breadcrumbs">
+  <div class="container">
 
+    <div class="d-flex justify-content-between align-items-center">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li>Contact Us</li>
+      </ol>
+    </div>
+
+  </div>
+</section><!-- End Breadcrumbs Section -->
 <?php
-   
-if(isset($_POST['name'])){
-  $name = $_POST['name'];
- 
-}
-if(isset($_POST['address'])){
-  $address =$_POST['address'];
-}
-if(isset($_POST['email'])){
-  $email = $_POST['email'];
- 
-}
-if(isset($_POST['phone'])){
-  $phone =$_POST['phone'];
-}if(isset($_POST['date'])){
-  $date = $_POST['date'];
- 
-}
-if(isset($_POST['time'])){
-  $time =$_POST['time'];
-}if(isset($_POST['number'])){
-  $number = $_POST['number'];
- 
-}
-if(isset($_POST['message'])){
-  $message =$_POST['message'];
-}
-$_POST['name']= $name;
-$_POST['address']=$address;
-$_POST['email']= $email;
-$_POST['phone']=$phone;
-$_POST['date']= $date;
-$_POST['time']=$time;
-$_POST['number']= $number;
-$_POST['message']=$message;
 
 
 if(isset($_POST['submit']))
@@ -209,24 +198,26 @@ if(isset($_POST['submit']))
 $hostname ="localhost";
 $username ="root";
 $password = "";
-$databaseName= "booking";
+$databaseName= "contact_us";
+
 
 
 
 $connect = mysqli_connect($hostname,$username ,$password,$databaseName);
-$query="INSERT INTO contact_details( Name,Address,Email,Phone,datea,timess,Flight,Message) VALUES ('kk','cc','c','f','f','f','f','f')";
+$query="INSERT INTO contact_details ( Name, Address, Email,Phone,datea,timess,Flight,Message) VALUES ('$name','$address','$email','$phone','$date','$time','$number','$message')";
 
 $result = mysqli_query($connect, $query);
+
 
     
 }
 
 
+
 ?>
 
 
-<br>
-<br>
+
 
 <section>
     <!--Section: Contact v.2-->
@@ -243,10 +234,10 @@ $result = mysqli_query($connect, $query);
         	        
         </div>
     </div>
-
+<br><br><br> 
     <div class="detailsSection">
 
-    	<div class="container">
+    	<div class="container" style="padding-bottom: 5rem; ">
 
 			<div class="row" id="row">    
 		        <!--Grid column-->
@@ -256,9 +247,8 @@ $result = mysqli_query($connect, $query);
 		                <div class="form">
 
 					 		<div class="card-body">
-		                    	<form id ="contact-form" name="contact-form" method="POST"  >
-		                    		<!-- onsubmit="return validateForm()"
- -->
+		                    	<form id ="contact-form" name="contact-form" method="POST"  onsubmit="return validateForm()">
+
 		                        <!--Grid row-->
 		                        <div class="row">
 
@@ -267,7 +257,7 @@ $result = mysqli_query($connect, $query);
 		                                <div class="md-form">
 		                                    <div class="md-form">
 		                                    	<label for="name" class="" >Name</label>
-		                                        <input type="text" required id="name" name="name" class="form-control" style="background-color: #f6f6f6;">
+		                                        <input type="text" id="name" name="name" class="form-control" style="background-color: #f6f6f6;">
 		                                        
 		                                    </div>
 		                                </div>
@@ -309,7 +299,7 @@ $result = mysqli_query($connect, $query);
 		                                <div class="md-form">
 		                                    <div class="md-form">
 		                                    	<label for="phone" class="">Phone</label>
-		                                        <input type="text" id="phone" name="phone" class="form-control" style="background-color: #f6f6f6;">
+		                                        <input type="number" id="phone" name="phone" min="0" class="form-control" pattern="[2-9]{1}\d{2}" style="background-color: #f6f6f6;">
 		                                        
 		                                    </div>
 		                                </div>
@@ -329,7 +319,7 @@ $result = mysqli_query($connect, $query);
 		                            <div class="md-form">
 		                                <div class="md-form">
 		                                    <label for="name" class="">Pick up Date</label>
-		                                    <input type="date" id="date" name="date" class="form-control" style="background-color: #f6f6f6;">
+		                                    <input type="text" id="date" name="date" class="form-control" style="background-color: #f6f6f6;">
 		                                </div>
 		                            </div>
 		                        	</div>
@@ -358,7 +348,7 @@ $result = mysqli_query($connect, $query);
 		                                <div class="md-form">
 		                                    <div class="md-form">
 		                                    	<label for="name" class="">Flight Number</label>
-		                                        <input type="number" id="number" name="number" class="form-control" style="background-color: #f6f6f6;">
+		                                        <input type="number" id="number" name="number" min="0" class="form-control" style="background-color: #f6f6f6;">
 		                                    </div>
 		                                </div>
 		                            </div>
@@ -382,17 +372,17 @@ $result = mysqli_query($connect, $query);
 		                            </div>
 		                            <!--Grid column-->
 		                        </div>
-		                    	
+		                        <br><br>
+		                    	<div class="center-on-small-only">
+								<!-- Button HTML (to Trigger Modal) -->
+								<input type="submit" name="submit" class="btn btn-primary" value="Submit" onsubmit="return emailvalid(); return validateForm();"> 								 
+								</div>
 		                        <!--Grid row-->
 		                    	</form>
 
-		                    	<br>
-		                    	<br>
+		                    	
 
-		                    	<div class="center-on-small-only">
-								<!-- Button HTML (to Trigger Modal) -->
-								<input type="submit" name="submit" class="btn btn-outline-primary" value="Add To Cart"> 								<!-- onclick="validateForm()" -->
-								</div>
+		                    	
 		                    	
 		                    	
 
@@ -412,7 +402,7 @@ $result = mysqli_query($connect, $query);
 							<div class="single contact-info">
 								<div class="store-card card-select" id="store-card">
 
-									<h6 style="font-family: 'Playfair Display', serif">Thank you for visiting Visit Sri Lanka Tours,  you  may use  online form  to request information's,  send us your comments or questions, Alternatively you can contact us via following.</h6>
+									<p >Thank you for visiting Visit Sri Lanka Tours,  you  may use  online form  to request information's,  send us your comments or questions, Alternatively you can contact us via following.</p>
 								</div>	
 								<hr class="hr">
 								<ul class="list-unstyled">
@@ -452,26 +442,104 @@ $result = mysqli_query($connect, $query);
 	</div>
 
 </section>	
-     
+  <br><br>   <br><br><br><br>
         <!--Section: Contact v.2-->
 
 
 
     <!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.js"></script>
+    
+    
     <!--Custom scripts-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    
+    <script>
+  $(document).ready(function(){
+    var minDate = new Date();
+    $("#date").datepicker({
+      showAnim: 'drop',
+      numberOfMonth: 1,
+      minDate : minDate,
+      dateFormat:'yy/mm/dd',
+
+
+    });
+  });
+</script>
+<!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-12">
+            <div class="footer-info">
+              <h3>Visit Sri Lanka Tours </h3>
+              <p class="pb-3"><em> Registered in England and Wales</em></p>
+              <p>
+                71-75 Shelton Street <br>
+                Covent Garden <br>
+                London <br>
+                WC2H 9JQ <br>
+                ENGLAND <br><br>
+              </p>
+              <div class="social-links mt-6">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Categories</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Tour Packages</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Day Trips / Excursions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="booking.php">Taxi Booking</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="place_to_visit.php">Place To Visit</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="CoachTicket.php">Coach Tour</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="terms.php">Terms & Conditions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="privacy.php">Privacy Policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="faq.php">FAQ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.php">Contact Us</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="row">
+          <!-- Copyright Message -->
+        </div>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+
 	
 
 </body>
+<!--<script>
+  $(document).ready(function(){
+    var minDate = new Date();
+    $("#date").datepicker({
+      showAnim: 'drop',
+      numberOfMonth: 1,
+      minDate : minDate,
+      dateFormat:'yy/mm/dd',
+
+
+    });
+  });
+</script>-->
+
 
 <script type="text/javascript">
 	function validateForm()
@@ -485,55 +553,67 @@ $result = mysqli_query($connect, $query);
 		var time = document.getElementById('time').value;
 		var number = document.getElementById('number').value;
 		var message = document.getElementById('message').value;
+		
 
 		if (name == '') {
 			Swal.fire({
 			  icon: 'error',
 			  title: 'Oops...',
 			  text: 'Please enter your name',
+			  timer: 2000
 			})
+			return false;
 		} else if ( address == '' ) {
 			Swal.fire({
 				icon: 'error',
 				title: 'Oops...',
 				text: 'Please enter your address',
 			})
+			return false;
+
 		} else if ( email == '' ) {
 			Swal.fire({
 				icon: 'error',
 				title: 'Oops...',
-				text: 'Please enter your email',
+				text: 'Please enter valid email',
 			})
-		} else if ( phone == '' ) {
+		return false;
+    	
+		} else if ( phone == '' )  {
 			Swal.fire({
 				icon: 'error',
 				title: 'Oops...',
 				text: 'Please enter your phone',
 			})
+			return false;
 		} else if ( date == '' ) {
 			Swal.fire({
 				icon: 'error',
 				title: 'Oops...',
 				text: 'Please enter your Pick up date',
 			})
+			return false;
 		} else if ( time == '' ) {
 			Swal.fire({
 				icon: 'error',
 				title: 'Oops...',
 				text: 'Please enter your Pick up time',
 			})
+			return false;
 		} else if ( number == '' ) {
 			Swal.fire({
 				icon: 'error',
 				title: 'Oops...',
 				text: 'Please enter your Flight number',
 			})
+			return false;
 		} else if ( message == '' ) {
 			Swal.fire({
 				icon: 'error',
 				title: 'Oops...',
 				text: 'Please enter your message',
 			})
+			return false;
 
 		} else if (name != '' && address != '' && email != '' && phone != '' && date != '' && time != '' && number != '' && message!= '') {
 			Swal.fire({
@@ -543,10 +623,30 @@ $result = mysqli_query($connect, $query);
 				  showConfirmButton: false,
 				  timer: 2000
 				})
+			return true;
 		}
 	}
 </script>
+<script type="text/javascript">
+	function emailvalid(){
+	var mail = document.getElementById('email').value;
+	var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+ if (mail.match(pattern )) {
+    Swal.fire({
+				  icon: 'success',
+				  title: 'Successfully',
+				  text: 'Thank you for getting in touch! We appreciate you contacting us',
+				  showConfirmButton: false,
+				  timer: 2000
+				})
+    			return true;
+   } else{
+    	alert("Enter valid Mail")
+    }
+
+}
+</script>
 
 
-<?php include_once('footer.php'); ?>
 </html>
