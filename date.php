@@ -57,6 +57,13 @@ $ed=array_unique($ends);
 	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
 </head>
 <style type="text/css">
 
@@ -110,7 +117,7 @@ $_POST['date']=$date;
 	
 	<div class="container">
 		<div class="card" style="margin-bottom: 5%; background-color: #C2FDD1; border-color: #000387; border-width: 5px;">
-		<form  method="post" action="select.php">
+		<form  method="post" action="select.php" onsubmit="return validateForm()">
 	
 
 
@@ -150,9 +157,12 @@ $_POST['date']=$date;
        		
        	</div>
        	<div class="col-lg-4">
+        <input type="text" name="date" id="date" class="form-control">
+
+
  
- 		<input type="date" id="date" name="date" class="form-control">
-       		
+
+
        	</div>
        	
 
@@ -166,7 +176,7 @@ $_POST['date']=$date;
           <a href="mode.php" class="btn btn-primary"> Back</a>
        	</div>
        	<div class="col-lg-2 col-sm-2">
-       		 <input type="submit" name="submit" class="btn btn-primary" value="Next" onclick="validateForm()"> 
+       		 <input type="submit" name="submit" class="btn btn-primary" value="Next" > 
        	</div>
 
        </div>
@@ -180,30 +190,99 @@ $_POST['date']=$date;
   
     </div>
 </div>
-</body>
 <script type="text/javascript">
-	function validateForm()
-	{
+  function validateForm()
+  {
 
-		var name = document.getElementById('name').value;
-	
+    var date = document.getElementById('date').value;
 
-		if (name == '') {
-			Swal.fire({
-			  icon: 'error',
-			  title: 'Oops...',
-			  text: 'Name eka dapan....',
-			})
-	
-		} else if (name != '' && address != '') {
-			Swal.fire({
-				  icon: 'success',
-				  title: 'Successfully Submit',
-				  showConfirmButton: false,
-				  timer: 1500
-				})
-		}
-	}
+    if (date == '') {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Please enter the Date',
+      })
+      return false;
+    }
+    else{
+      return true;
+    }
+  }
+  </script> 
+
+  <script>
+  $(document).ready(function(){
+    var minDate = new Date();
+    $("#date").datepicker({
+      showAnim: 'drop',
+      numberOfMonth: 1,
+      minDate : minDate,
+      dateFormat:'yy/mm/dd',
+
+
+    });
+  });
 </script>
-<?php include'footer.php'; ?>
+
+
+    <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-12">
+            <div class="footer-info">
+              <h3>Visit Sri Lanka Tours </h3>
+              <p class="pb-3"><em> Registered in England and Wales</em></p>
+              <p>
+                71-75 Shelton Street <br>
+                Covent Garden <br>
+                London <br>
+                WC2H 9JQ <br>
+                ENGLAND <br><br>
+              </p>
+              <div class="social-links mt-6">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Categories</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Tour Packages</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Day Trips / Excursions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Taxi Booking</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="place_to_visit.php">Place To Visit</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="CoachTicket.php">Coach Tour</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="terms.php">Terms & Conditions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="privacy.php">Privacy Policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">FAQ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="row">
+          <!-- Copyright Message -->
+        </div>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+ </body>
+
+
 </html>

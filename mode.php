@@ -17,6 +17,7 @@ $_POST['mode']= $mode;
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<!-- <script src="https://kit.fontawesome.com/b99e675b6e.js"></script> -->
 	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
 </head>
 <style type="text/css">
@@ -250,9 +251,16 @@ body{
       return true;
      }
      else{
-   alert("select");
+      // alert("kk");
+      // return false;
+   Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: 'Please select the Mode!',
+  footer: 'Select atleast one...'
+})
+   return false;
 
-            return false;
     }
 }
 	// 	if (name == '') {

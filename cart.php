@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <?php
 
+session_start();
 
-
-
+$id=array();
 
 $hostname ="localhost";
 $username ="root";
@@ -58,23 +58,29 @@ if(mysqli_num_rows($result)>0){
     # code...
   }
 }else{
-	echo "not found";
+  ?>
+
+<h3 style="text-align: center;">Yout Cart is Empty</h3>
+
+  <?php
+	
 }
 
 ?>
 <?php 
-                        for($i=0;$i<count($re1);$i++) {
+                        for($i=0;$i<count($id);$i++) {
 
                          
           
                         ?>
 
-<form method="post" id="for">
+<form method="post" id="for" action="delete.php">
                         	
                         
 
                         
 <div class="card" style="margin-top: 5%; border-color: #000387; border-width: 2px;">
+  <?php $idd=$id[$i]; $_SESSION['idd']=$idd; ?>
   <h5 class="card-header" style="background-color: #000387; "> <?php $nm=$re1[$i]; echo '<span style="color:#AFA;">Train :  '.$nm.'</span>'; $_SESSION['nm']=$nm; ?> </h5>
   <div class="card-body" style="background-color: #C2FDD1;">
     
@@ -134,7 +140,7 @@ if(mysqli_num_rows($result)>0){
    		
    	</div>
    	<div class="col-lg-2" style="margin-top: 25px;">
-   		<a href="#" class="btn btn-primary">Book Now</a>
+   		<a href="payment.php" class="btn btn-primary">Book Now</a>
    	</div>
    		<div id="delayMsg" class="col-lg-2" style="margin-top: 25px;">
    			
@@ -163,7 +169,7 @@ if(mysqli_num_rows($result)>0){
  <?php }
   ?>
 <div>
-  <a href="mode.php" class="btn btn-primary" style="margin-bottom: 5%; margin-top: 2%; margin-left: 1%;"> back</a>
+  <a href="mode.php" class="btn btn-primary" style="margin-bottom: 5%; margin-top: 2%; margin-left: 1%;"> back to Booking</a>
 </div>
 </body>
 <?php include'footer.php'; ?>
