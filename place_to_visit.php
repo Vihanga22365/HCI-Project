@@ -201,6 +201,139 @@
   		</div>
   	<!-- End Mathale -->
 
+
+  	<!-- Start anuradhapura -->
+  		<div id="anuradhapura" style="display: none;" >
+  			<?php include 'visit_anuradhapura.php';?>
+  		</div>
+  	<!-- End anuradhapura -->
+
+  	<!-- Start badulla -->
+  		<div id="badulla" style="display: none;" >
+  			<?php include 'visit_badulla.php';?>
+  		</div>
+  	<!-- End badulla -->
+
+  	<!-- Start colombo -->
+  		<div id="colombo" style="display: none;" >
+  			<?php include 'visit_colombo.php';?>
+  		</div>
+  	<!-- End colombo -->
+
+  	<!-- Start galle -->
+  		<div id="galle" style="display: none;" >
+  			<?php include 'visit_galle.php';?>
+  		</div>
+  	<!-- End galle -->
+
+  	<!-- Start hambanthota -->
+  		<div id="hambanthota" style="display: none;" >
+  			<?php include 'visit_hambanthota.php';?>
+  		</div>
+  	<!-- End hambanthota -->
+
+  	<!-- Start neliya -->
+  		<div id="neliya" style="display: none;" >
+  			<?php include 'visit_neliya.php';?>
+  		</div>
+  	<!-- End neliya -->
+  	<!-- Start trinco -->
+  		<div id="trinco" style="display: none;" >
+  			<?php include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End trinco -->
+
+  	<!-- Start ampara -->
+  		<div id="ampara" style="display: none;" >
+  			<?php// include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End ampara -->
+
+  	<!-- Start batticaloa -->
+  		<div id="batticaloa" style="display: none;" >
+  			<?php// include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End batticaloa -->
+
+  	<!-- Start polonnaruwa -->
+  		<div id="polonnaruwa" style="display: none;" >
+  			<?php// include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End polonnaruwa -->
+
+  	<!-- Start vavuniyawa -->
+  		<div id="vavuniyawa" style="display: none;" >
+  			<?php// include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End vavuniyawa -->
+
+  	<!-- Start mannar -->
+  		<div id="mannar" style="display: none;" >
+  			<?php// include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End mannar -->
+  	<!-- Start mullativ -->
+  		<div id="mullativ" style="display: none;" >
+  			<?php// include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End mullativ -->
+  	<!-- Start vavuniyawa -->
+  		<div id="vavuniyawa" style="display: none;" >
+  			<?php// include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End vavuniyawa -->
+  	<!-- Start mathara -->
+  		<div id="mathara" style="display: none;" >
+  			<?php// include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End mathara -->
+  	<!-- Start kurunagala -->
+  		<div id="kurunagala" style="display: none;" >
+  			<?php// include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End kurunagala -->
+  	<!-- Start puttalam -->
+  		<div id="puttalam" style="display: none;" >
+  			<?php// include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End puttalam -->
+  	<!-- Start rathnapura -->
+  		<div id="rathnapura" style="display: none;" >
+  			<?php //include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End rathnapura -->
+  	<!-- Start monaragala -->
+  		<div id="monaragala" style="display: none;" >
+  			<?php// include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End monaragala -->
+  	<!-- Start kegalle -->
+  		<div id="kegalle" style="display: none;" >
+  			<?php// include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End kegalle -->
+  	<!-- Start gampaha -->
+  		<div id="gampaha" style="display: none;" >
+  			<?php //include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End gampaha -->
+  	<!-- Start kaluthara -->
+  		<div id="kaluthara" style="display: none;" >
+  			<?php //include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End kaluthara -->
+
+  	<!-- Start jaffna -->
+  		<div id="jaffna" style="display: none;" >
+  			<?php //include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End jaffna -->
+  	<!-- Start kolinocchi -->
+  		<div id="kolinocchi" style="display: none;" >
+  			<?php //include 'visit_trinco.php';?>
+  		</div>
+  	<!-- End kolinocchi -->
+
 	</div>
 
 
@@ -212,6 +345,8 @@
 
 	<script type="text/javascript">
 		function getPlace(sec){
+
+			//alert(sec);
 
 			if ( sec == 'mahanuwara') {
 				var element = document.getElementById('scroll_main');
@@ -241,11 +376,15 @@
 				document.getElementById('colombo').style.display = 'none';
 				document.getElementById('gampaha').style.display = 'none';
 				document.getElementById('kaluthara').style.display = 'none';
+
+
 			} 
 
 			if (sec == 'mathale') {
-				document.getElementById('kandy').style.display = 'none';
+				var element = document.getElementById('scroll_main');
+				element.scrollIntoView();
 				document.getElementById('mathale').style.display = 'block';
+				document.getElementById('kandy').style.display = 'none';
 				document.getElementById('neliya').style.display = 'none';
 				document.getElementById('ampara').style.display = 'none';
 				document.getElementById('batticaloa').style.display = 'none';
@@ -269,7 +408,222 @@
 				document.getElementById('colombo').style.display = 'none';
 				document.getElementById('gampaha').style.display = 'none';
 				document.getElementById('kaluthara').style.display = 'none';
+				alert(sec);
 			}
+
+			if (sec == 'anuradhapura') {
+				var element = document.getElementById('scroll_main');
+				element.scrollIntoView();
+				document.getElementById('kandy').style.display = 'none';
+				document.getElementById('mathale').style.display = 'none';
+				document.getElementById('neliya').style.display = 'none';
+				document.getElementById('ampara').style.display = 'none';
+				document.getElementById('batticaloa').style.display = 'none';
+				document.getElementById('polonnaruwa').style.display = 'none';
+				document.getElementById('trinco').style.display = 'none';
+				document.getElementById('anuradhapura').style.display = 'block';
+				document.getElementById('vavuniyawa').style.display = 'none';
+				document.getElementById('mannar').style.display = 'none';
+				document.getElementById('mullativ').style.display = 'none';
+				document.getElementById('jaffna').style.display = 'none';
+				document.getElementById('kolinocchi').style.display = 'none';
+				document.getElementById('kurunagala').style.display = 'none';
+				document.getElementById('puttalam').style.display = 'none';
+				document.getElementById('rathnapura').style.display = 'none';
+				document.getElementById('galle').style.display = 'none';
+				document.getElementById('hambanthota').style.display = 'none';
+				document.getElementById('mathara').style.display = 'none';
+				document.getElementById('badulla').style.display = 'none';
+				document.getElementById('monaragala').style.display = 'none';
+				document.getElementById('kegalle').style.display = 'none';
+				document.getElementById('colombo').style.display = 'none';
+				document.getElementById('gampaha').style.display = 'none';
+				document.getElementById('kaluthara').style.display = 'none';
+
+			}
+
+			if (sec == 'badulla') {
+				var element = document.getElementById('scroll_main');
+				element.scrollIntoView();
+				
+				document.getElementById('anuradhapura').style.display = 'none';
+				document.getElementById('kandy').style.display = 'none';
+				document.getElementById('mathale').style.display = 'none';
+				document.getElementById('neliya').style.display = 'none';
+				document.getElementById('ampara').style.display = 'none';
+				document.getElementById('batticaloa').style.display = 'none';
+				document.getElementById('polonnaruwa').style.display = 'none';
+				document.getElementById('trinco').style.display = 'none';
+				document.getElementById('vavuniyawa').style.display = 'none';
+				document.getElementById('mannar').style.display = 'none';
+				document.getElementById('mullativ').style.display = 'none';
+				document.getElementById('jaffna').style.display = 'none';
+				document.getElementById('kolinocchi').style.display = 'none';
+				document.getElementById('kurunagala').style.display = 'none';
+				document.getElementById('puttalam').style.display = 'none';
+				document.getElementById('rathnapura').style.display = 'none';
+				document.getElementById('galle').style.display = 'none';
+				document.getElementById('hambanthota').style.display = 'none';
+				document.getElementById('mathara').style.display = 'none';
+				document.getElementById('monaragala').style.display = 'none';
+				document.getElementById('kegalle').style.display = 'none';
+				document.getElementById('colombo').style.display = 'none';
+				document.getElementById('gampaha').style.display = 'none';
+				document.getElementById('kaluthara').style.display = 'none';
+				document.getElementById('badulla').style.display = 'block';
+			}
+
+			if (sec == 'colombo') {
+				var element = document.getElementById('scroll_main');
+				element.scrollIntoView();
+				document.getElementById('colombo').style.display = 'block';
+				document.getElementById('badulla').style.display = 'none';
+				document.getElementById('kandy').style.display = 'none';
+				document.getElementById('mathale').style.display = 'none';
+				document.getElementById('neliya').style.display = 'none';
+				document.getElementById('ampara').style.display = 'none';
+				document.getElementById('batticaloa').style.display = 'none';
+				document.getElementById('polonnaruwa').style.display = 'none';
+				document.getElementById('trinco').style.display = 'none';
+				document.getElementById('anuradhapura').style.display = 'none';
+				document.getElementById('vavuniyawa').style.display = 'none';
+				document.getElementById('mannar').style.display = 'none';
+				document.getElementById('mullativ').style.display = 'none';
+				document.getElementById('jaffna').style.display = 'none';
+				document.getElementById('kolinocchi').style.display = 'none';
+				document.getElementById('kurunagala').style.display = 'none';
+				document.getElementById('puttalam').style.display = 'none';
+				document.getElementById('rathnapura').style.display = 'none';
+				document.getElementById('galle').style.display = 'none';
+				document.getElementById('hambanthota').style.display = 'none';
+				document.getElementById('mathara').style.display = 'none';
+				
+				document.getElementById('monaragala').style.display = 'none';
+				document.getElementById('kegalle').style.display = 'none';
+				document.getElementById('gampaha').style.display = 'none';
+				document.getElementById('kaluthara').style.display = 'none';
+			}
+
+			if (sec == 'galle') {
+				var element = document.getElementById('scroll_main');
+				element.scrollIntoView();
+				document.getElementById('galle').style.display = 'block';
+				document.getElementById('colombo').style.display = 'none';
+				document.getElementById('kandy').style.display = 'none';
+				document.getElementById('mathale').style.display = 'none';
+				document.getElementById('neliya').style.display = 'none';
+				document.getElementById('ampara').style.display = 'none';
+				document.getElementById('batticaloa').style.display = 'none';
+				document.getElementById('polonnaruwa').style.display = 'none';
+				document.getElementById('trinco').style.display = 'none';
+				document.getElementById('anuradhapura').style.display = 'none';
+				document.getElementById('vavuniyawa').style.display = 'none';
+				document.getElementById('mannar').style.display = 'none';
+				document.getElementById('mullativ').style.display = 'none';
+				document.getElementById('jaffna').style.display = 'none';
+				document.getElementById('kolinocchi').style.display = 'none';
+				document.getElementById('kurunagala').style.display = 'none';
+				document.getElementById('puttalam').style.display = 'none';
+				document.getElementById('rathnapura').style.display = 'none';
+				document.getElementById('hambanthota').style.display = 'none';
+				document.getElementById('mathara').style.display = 'none';
+				document.getElementById('badulla').style.display = 'none';
+				document.getElementById('monaragala').style.display = 'none';
+				document.getElementById('kegalle').style.display = 'none';
+				document.getElementById('gampaha').style.display = 'none';
+				document.getElementById('kaluthara').style.display = 'none';
+			}
+
+			if (sec == 'hambanthota') {
+				var element = document.getElementById('scroll_main');
+				element.scrollIntoView();
+				document.getElementById('hambanthota').style.display = 'block';
+				document.getElementById('colombo').style.display = 'none';
+				document.getElementById('kandy').style.display = 'none';
+				document.getElementById('mathale').style.display = 'none';
+				document.getElementById('neliya').style.display = 'none';
+				document.getElementById('ampara').style.display = 'none';
+				document.getElementById('batticaloa').style.display = 'none';
+				document.getElementById('polonnaruwa').style.display = 'none';
+				document.getElementById('trinco').style.display = 'none';
+				document.getElementById('anuradhapura').style.display = 'none';
+				document.getElementById('vavuniyawa').style.display = 'none';
+				document.getElementById('mannar').style.display = 'none';
+				document.getElementById('mullativ').style.display = 'none';
+				document.getElementById('jaffna').style.display = 'none';
+				document.getElementById('kolinocchi').style.display = 'none';
+				document.getElementById('kurunagala').style.display = 'none';
+				document.getElementById('puttalam').style.display = 'none';
+				document.getElementById('rathnapura').style.display = 'none';
+				document.getElementById('galle').style.display = 'none';
+				document.getElementById('mathara').style.display = 'none';
+				document.getElementById('badulla').style.display = 'none';
+				document.getElementById('monaragala').style.display = 'none';
+				document.getElementById('kegalle').style.display = 'none';
+				document.getElementById('gampaha').style.display = 'none';
+				document.getElementById('kaluthara').style.display = 'none';
+			}
+
+			if (sec == 'neliya') {
+				var element = document.getElementById('scroll_main');
+				element.scrollIntoView();
+				document.getElementById('neliya').style.display = 'block';
+				document.getElementById('colombo').style.display = 'none';
+				document.getElementById('kandy').style.display = 'none';
+				document.getElementById('mathale').style.display = 'none';
+				document.getElementById('ampara').style.display = 'none';
+				document.getElementById('batticaloa').style.display = 'none';
+				document.getElementById('polonnaruwa').style.display = 'none';
+				document.getElementById('trinco').style.display = 'none';
+				document.getElementById('anuradhapura').style.display = 'none';
+				document.getElementById('vavuniyawa').style.display = 'none';
+				document.getElementById('mannar').style.display = 'none';
+				document.getElementById('mullativ').style.display = 'none';
+				document.getElementById('jaffna').style.display = 'none';
+				document.getElementById('kolinocchi').style.display = 'none';
+				document.getElementById('kurunagala').style.display = 'none';
+				document.getElementById('puttalam').style.display = 'none';
+				document.getElementById('rathnapura').style.display = 'none';
+				document.getElementById('galle').style.display = 'none';
+				document.getElementById('hambanthota').style.display = 'none';
+				document.getElementById('mathara').style.display = 'none';
+				document.getElementById('badulla').style.display = 'none';
+				document.getElementById('monaragala').style.display = 'none';
+				document.getElementById('kegalle').style.display = 'none';
+				document.getElementById('gampaha').style.display = 'none';
+				document.getElementById('kaluthara').style.display = 'none';
+			}
+			if (sec == 'trinco') {
+				var element = document.getElementById('scroll_main');
+				element.scrollIntoView();
+				document.getElementById('neliya').style.display = 'none';
+				document.getElementById('colombo').style.display = 'none';
+				document.getElementById('kandy').style.display = 'none';
+				document.getElementById('mathale').style.display = 'none';
+				document.getElementById('ampara').style.display = 'none';
+				document.getElementById('batticaloa').style.display = 'none';
+				document.getElementById('polonnaruwa').style.display = 'none';
+				document.getElementById('trinco').style.display = 'block';
+				document.getElementById('anuradhapura').style.display = 'none';
+				document.getElementById('vavuniyawa').style.display = 'none';
+				document.getElementById('mannar').style.display = 'none';
+				document.getElementById('mullativ').style.display = 'none';
+				document.getElementById('jaffna').style.display = 'none';
+				document.getElementById('kolinocchi').style.display = 'none';
+				document.getElementById('kurunagala').style.display = 'none';
+				document.getElementById('puttalam').style.display = 'none';
+				document.getElementById('rathnapura').style.display = 'none';
+				document.getElementById('galle').style.display = 'none';
+				document.getElementById('hambanthota').style.display = 'none';
+				document.getElementById('mathara').style.display = 'none';
+				document.getElementById('badulla').style.display = 'none';
+				document.getElementById('monaragala').style.display = 'none';
+				document.getElementById('kegalle').style.display = 'none';
+				document.getElementById('gampaha').style.display = 'none';
+				document.getElementById('kaluthara').style.display = 'none';
+			}
+
+
 		}
 	</script>
 

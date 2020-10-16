@@ -27,7 +27,7 @@
                 <h4>Temple of the Sacred Tooth Relic</h4>
                 <span>Kandy District</span>
                 <div class="social">
-                  <a href="" class="btn btn-primary" style="width: 50%; color: white;"> View Place </a>
+                  <a href="https://en.wikipedia.org/wiki/Temple_of_the_Tooth" class="btn btn-primary" style="width: 50%; color: white;"> View Place </a>
                 </div>
               </div>
             </div>
@@ -40,7 +40,7 @@
                 <h4>Royal Botanical Gardens</h4>
                 <span>Kandy District</span>
                 <div class="social">
-                  <a href="" class="btn btn-primary" style="width: 50%; color: white;"> View Place </a>
+                  <a href="https://en.wikipedia.org/wiki/Royal_Botanical_Gardens,_Peradeniya" class="btn btn-primary" style="width: 50%; color: white;"> View Place </a>
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@
                 <h4>Bahirawakanda Vihara Buddha Statue</h4>
                 <span>Kandy District</span>
                 <div class="social">
-                  <a href="" class="btn btn-primary" style="width: 50%; color: white;"> View Place </a>
+                  <a href="https://en.wikipedia.org/wiki/Sri_Maha_Bodhi_Viharaya" class="btn btn-primary" style="width: 50%; color: white;"> View Place </a>
                 </div>
               </div>
             </div>
@@ -66,7 +66,7 @@
                 <h4>Arthur's Seat, Kandy</h4>
                 <span>Kandy District</span>
                 <div class="social">
-                  <a href="" class="btn btn-primary" style="width: 50%; color: white;"> View Place </a>
+                  <a href="https://en.wikipedia.org/wiki/Arthur%27s_Seat,_Kandy" class="btn btn-primary" style="width: 50%; color: white;"> View Place </a>
                 </div>
               </div>
             </div>
