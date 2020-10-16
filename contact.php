@@ -198,7 +198,7 @@ if(isset($_POST['submit']))
 $hostname ="localhost";
 $username ="root";
 $password = "";
-$databaseName= "contact_us";
+$databaseName= "booking";
 
 
 
@@ -542,6 +542,18 @@ $result = mysqli_query($connect, $query);
 
 
 <script type="text/javascript">
+
+  function  isMail(mail){
+
+    pattuser = /^([A-Z0-9_%+\-!#$&'*\/=?^`{|}~]+\.?)*[A-Z0-9_%+\-!#$&'*\/=?^`{|}~]+$/i;
+    pattdomain = /^([A-Z0-9-]+\.?)*[A-Z0-9-]+(\.[A-Z]{2,9})+$/i;
+
+    tab = mail.split("@");
+    if (tab.length != 2)
+        return false;
+    return (pattuser.test(tab[0]) && pattdomain.test(tab[1]));
+  }
+    
 	function validateForm()
 	{
 
@@ -553,6 +565,7 @@ $result = mysqli_query($connect, $query);
 		var time = document.getElementById('time').value;
 		var number = document.getElementById('number').value;
 		var message = document.getElementById('message').value;
+    var xmail = isMail(email);
 		
 
 		if (name == '') {
@@ -575,11 +588,19 @@ $result = mysqli_query($connect, $query);
 			Swal.fire({
 				icon: 'error',
 				title: 'Oops...',
-				text: 'Please enter valid email',
+				text: 'Please enter your email',
 			})
 		return false;
     	
-		} else if ( phone == '' )  {
+		}else if ( xmail == false ) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Please enter valid email',
+      })
+    return false;
+      
+    } else if ( phone == '' )  {
 			Swal.fire({
 				icon: 'error',
 				title: 'Oops...',

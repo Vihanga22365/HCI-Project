@@ -336,6 +336,16 @@
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script type="text/javascript">
 
+     function getXmlHttpRequestObject() {
+        if (window.XMLHttpRequest) {
+            return new XMLHttpRequest();
+        }
+        else if(window.ActiveXObject) {
+            return new ActiveXObject("Microsoft.XMLHTTP");
+        }else {
+            }
+        }
+
     function    isMail(mail){
 
     pattuser = /^([A-Z0-9_%+\-!#$&'*\/=?^`{|}~]+\.?)*[A-Z0-9_%+\-!#$&'*\/=?^`{|}~]+$/i;
@@ -413,14 +423,53 @@
           text: 'Passport number not confirm correctly!',
         })
       } else {
-        Swal.fire({
-          icon: 'success',
-          title: 'Thank You',
-          text: 'Successfully saved your personal data.',
-          showConfirmButton: false,
-          timer: 1500
-        })
-        display();
+
+        var formData = new FormData();
+        formData.append('title', title);
+        formData.append('fname', fname);
+        formData.append('lname', lname);
+        formData.append('email', email);
+        formData.append('phone', phone);
+        formData.append('pass', pass);
+
+            var req = getXmlHttpRequestObject(); // fuction to get xmlhttp object
+            if (req) {
+                req.onreadystatechange = function() {
+            if (req.readyState == 4) { //data is retrieved from server
+                if (req.status == 200) { // which reprents ok status 
+                 //alert(req.responseText);
+                    if(req.responseText == email){
+                      window.email = email;
+                        Swal.fire({
+                          icon: 'success',
+                          title: 'Thank You',
+                          text: 'Successfully saved your personal data.',
+                          showConfirmButton: false,
+                          timer: 1500
+                        })
+
+                        display();
+                        //setTimeout(location.reload(), 600000);
+
+                    }else{
+                        Swal.fire({
+                              icon: 'error',
+                              title: 'Oops...',
+                              text: 'Something went wrong!',
+
+                            })
+                    } 
+                  
+               
+            }            
+        } 
+    } 
+
+        req.open("POST", 'sub_payment.php', true); //open url using get method, get_GrnBill.php
+        req.send(formData); 
+    }
+
+        
       }
 
     }
@@ -498,13 +547,55 @@
           text: 'Please enter cvv code!',
         })
       } else {
-        Swal.fire({
-          icon: 'success',
-          title: 'Thank You',
-          text: 'Successfully saved your card data.',
-          showConfirmButton: false,
-          timer: 1500
-        })
+
+        var formData = new FormData();
+        formData.append('method', method);
+        formData.append('cnumber', cnumber);
+        formData.append('cfname', cfname);
+        formData.append('clname', clname);
+        formData.append('country', country);
+        formData.append('city', city);
+        formData.append('house', house);
+        formData.append('post', post);
+        formData.append('exp', exp);
+        formData.append('cvv', cvv);
+        formData.append('email', email);
+
+        var req = getXmlHttpRequestObject(); // fuction to get xmlhttp object
+            if (req) {
+                req.onreadystatechange = function() {
+            if (req.readyState == 4) { //data is retrieved from server
+                if (req.status == 200) { // which reprents ok status 
+                 // alert(req.responseText);
+                    if(req.responseText == 1){
+                        Swal.fire({
+                          icon: 'success',
+                          title: 'Thank You',
+                          text: 'Successfully saved your card data.',
+                          showConfirmButton: false,
+                          timer: 1500
+                        })
+                        setTimeout(location.reload(), 600000);
+
+                    }else{
+                        Swal.fire({
+                              icon: 'error',
+                              title: 'Oops...',
+                              text: 'Something went wrong!',
+
+                            })
+                    } 
+                  
+               
+            }            
+        } 
+    } 
+
+        req.open("POST", 'sub_payment_card.php', true); //open url using get method, get_GrnBill.php
+        req.send(formData); 
+    }
+
+        
       }
 
 
