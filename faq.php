@@ -274,7 +274,7 @@ $(document).ready(function(){
                               </div>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                              <div class="card-body">
+                              <div class="card-body text-justify">
                                 Colombo fort main ticketing counter should be open 7 days a week and will open prior to the train depart , if your train is  very early morning/late night departure, the ticket counter will be open to issue the tickets, if you are catching the train from Colombo there will always a counter to serve you prior to the departure. but there is counter 17 at fort station specially for Pre-booked tickets collection during peak hours.
                               </div>
                             </div>
@@ -288,7 +288,7 @@ $(document).ready(function(){
                                 </a></li>
                               </div>
                             </div>
-                            <div id="collapseTee" class="collapse" aria-labelledby="headingTee" data-parent="#accordion">
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingTee" data-parent="#accordion">
                               <div class="card-body">
                                 You can collect your tickets at any of major railway stations, including: Colombo fort, Gampaha, Kandy, Peradeniya, Nawalapitiya,Nanuoya, Ella, Badulla, Haputale, Bandarawela, Hatton,  Galle, Wallawatte, Kalutara, Aluthgama, Polgahawela, Hikkaduwa, Matara, Jaffna, Anuradhapura, Vauniya, Trincolamee, Galoya, Polonnaruwa,Valachchenai, Baticoalo, Anuradhapura, Kurunegala,
                               </div>
@@ -395,7 +395,7 @@ $(document).ready(function(){
                               </div>
                             </div>
                             <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordion">
-                              <div class="card-body">
+                              <div class="card-body text-justify">
                                  Some time your paper tickets will state time and destination as per train originally starting point to end point, but you are allowed to board and exit and any station between your destination, therefore please refer to the time and destination you have booked with us, eg if you book 08:47s train from Kandy to Ella, your original paper ticket may print as 05:55s (which the time this train setting off at the its origin (Colombo) and heading to Badulla , but this train will arrive Kandy at 08:47s and goes to Badulla via Ella.
                                  <br><br>
                                  In other words, ticket is valid from:  A to D but you use from B to C<br>
@@ -841,7 +841,7 @@ $(document).ready(function(){
                               </div>
                             </div>
                             <div id="collapse38" class="collapse" aria-labelledby="heading38" data-parent="#accordion">
-                              <div class="card-body">
+                              <div class="card-body text-justify">
                                 Did we miss something? If you can't find the information you are looking for in our FAQ section, please help us improve this page by sending your query to [visitsrilankatours@hotmail.com].
                               </div>
                             </div>
