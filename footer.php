@@ -42,8 +42,8 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Categories</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Tour Packages</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Day Trips / Excursions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="MoreDetails11.php">Tour Packages</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="DayTrips_ExcursionForm11.php">Day Trips / Excursions</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="booking.php">Taxi Booking</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="place_to_visit.php">Place To Visit</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="CoachTicket.php">Coach Tour</a></li>
