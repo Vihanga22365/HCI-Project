@@ -61,7 +61,7 @@ $ed=array_unique($ends);
 <style type="text/css">
 
 body{
-  background-color: #DCF2F2;
+
 }
 
 	
@@ -90,15 +90,28 @@ $_POST['end']=$end;
 $_POST['date']=$date;
 
   ?>
-  <div class="row">
-      <img src="img/kandy.png" style="width: 1500px; height: 300px;">
+     <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Destination</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs Section -->
+
+    <div class="section-title" style="margin-top: 3%;">
+                  <h2>Destination and Date</h2>
     </div>
-    
 	
 	<div class="container">
-		<div class="card" style="margin-top: 5%; background-color: #C2FDD1; border-color: #000387; border-width: 5px;">
+		<div class="card" style="margin-bottom: 5%; background-color: #C2FDD1; border-color: #000387; border-width: 5px;">
 		<form  method="post" action="select.php">
-	 <h1 style="text-align: center; color: #000387;">Destination and Date</h1>
+	
 
 
 
@@ -150,10 +163,10 @@ $_POST['date']=$date;
     <br>
        <div class="row" style="margin-bottom: 15px;">
        	<div class="col-lg-9 col-sm-9" style="margin-left: 15px">
-          <a href="mode.php" class="btn btn-outline-primary"> Back</a>
+          <a href="mode.php" class="btn btn-primary"> Back</a>
        	</div>
        	<div class="col-lg-2 col-sm-2">
-       		 <input type="submit" name="submit" class="btn btn-outline-primary" value="Next" onclick="validateForm()"> 
+       		 <input type="submit" name="submit" class="btn btn-primary" value="Next" onclick="validateForm()"> 
        	</div>
 
        </div>

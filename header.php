@@ -57,7 +57,9 @@
           </li>
           <li ><a href="">Day Trips </a></li>
           <li ><a href="">Contact Us</a></li>
-          <li ><a href=""><i class="fas fa-shopping-cart fa-lg"></i></a></li>
+
+           
+          <li ><a href="cart.php" id="noti_number"><i class="fas fa-shopping-cart fa-lg" ></i></a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -73,5 +75,27 @@
 
 
 </body>
+<!-- <script type="text/javascript">
+ function loadDoc() {
+  
+
+  setInterval(function(){
+
+   var xhttp = new XMLHttpRequest();
+   xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("noti_number").innerHTML = this.responseText;
+    }
+   };
+   xhttp.open("GET", "d_cart.php", true);
+   xhttp.send();
+
+  },1000);
+
+
+ }
+ loadDoc();
+</script>
+ -->
 
 </html>

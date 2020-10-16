@@ -53,17 +53,29 @@ $re3=array();
 
 	<style type="text/css">
 		body{
-  width: 100%;
-  height: 100%;
-  background-color: #DCF2F2;
+
 
 }
 	</style>
 </head>
 <body>
 
-   <div class="row">
-      <img src="img/tr.png" style="width: 1500px;">
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Confirm</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs Section -->
+
+    <div class="section-title" style="margin-top: 3%;">
+                  <h2>Confirm Booking</h2>
     </div>
     <div class="row" style="margin-top: 15px;">
     <div class="col-lg-4"></div>
@@ -234,11 +246,11 @@ if(mysqli_num_rows($result1)>0){
    		
    	</div>
    	<div class="col-lg-2" style="margin-top: 25px;">
-   		<a href="#" class="btn btn-outline-primary">Book Now</a>
+   		<a href="#" class="btn btn-primary">Book Now</a>
    	</div>
    		<div id="delayMsg" class="col-lg-2" style="margin-top: 25px;">
 
-       		 <input type="submit" name="submit" class="btn btn-outline-primary" value="Add To Cart" onclick="delayRedirect();"> 
+       		 <input type="submit" name="submit" class="btn btn-primary" value="Add To Cart" onclick="delayRedirect();"> 
    	</div>
    	
 
@@ -275,7 +287,7 @@ if(mysqli_num_rows($result1)>0){
 
 ?>
 
-               
+    <form action="insert.php" method="post" id="for">           
 <div class="card">
   <h5 class="card-header "  style="background-color: #EDF685"> <?php echo "Bus ID . ". $re2[$i]; ?> </h5>
   <div class="card-body">
@@ -320,10 +332,10 @@ if(mysqli_num_rows($result1)>0){
    	</div>
  
    	<div class="col-lg-2">
-   		<a href="#" class="btn btn-outline-primary">Book Now</a>
+   		<a href="#" class="btn btn-primary">Book Now</a>
    	</div>
    		<div class="col-lg-2" id="delayMsg">
-   		<a href="#" class="btn btn-outline-secondary" name="cart"> Add Cart</a>
+   		<a href="#" class="btn btn-secondary" name="cart"> Add Cart</a>
    	</div>
    	
 
@@ -331,7 +343,8 @@ if(mysqli_num_rows($result1)>0){
 </div>
 </div>
 
-
+</div>
+</form>
 
 
   <?php }
@@ -355,7 +368,7 @@ for($i=0;$i<count($re3);$i++) {
 
 	?>
 
-                      
+     <form action="insert.php" method="post" id="for">                 
 <div class="card">
   <h5 class="card-header "  style="background-color: #EDF685"> <?php echo "Taxt ID . ". $re3[$i]; ?> </h5>
   <div class="card-body">
@@ -396,10 +409,10 @@ for($i=0;$i<count($re3);$i++) {
 
  
    	<div class="col-lg-2">
-   		<a href="#" class="btn btn-outline-primary">Book Now</a>
+   		<a href="#" class="btn btn-primary">Book Now</a>
    	</div>
    		<div class="col-lg-2">
-   		<a href="#" class="btn btn-outline-secondary"> Add Cart</a>
+   		<a href="#" class="btn btn-secondary"> Add Cart</a>
    	</div>
    	
 
@@ -421,6 +434,7 @@ for($i=0;$i<count($re3);$i++) {
     
 </div>
 
+</form>
 
 
 
@@ -428,7 +442,7 @@ for($i=0;$i<count($re3);$i++) {
 
 <div class="row" style="margin-top: 20px;">
 	<div style="margin-left:20px;"></div>
- 	<a href="date.php" class="btn btn-outline-primary"> back</a>
+ 	<a href="date.php" class="btn btn-primary"> back</a>
  </div>
 
 
