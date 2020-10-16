@@ -442,7 +442,7 @@ $(document).ready(function(){
                                 <br>
                                 Please note one of (below pictured) ticket can be carry up to 5 seats, if you book more than one tickets and have received only on of below paper (don’t be panic) just see how many seats listed on that ticket.   As per below ticket, carriage is TCR Third class reserved and seat numbers are 33,34 and so on and valid for 4 passengers, 
                                 <br><br>
-                                <img src="img/trainticket.jpg">
+                                <img src="image/trainticket.jpg">
                               </div>
                             </div>
                           </div>
