@@ -79,7 +79,7 @@
  function loadDoc() {
   
 
-  setInterval(function(){
+  
 
    var xhttp = new XMLHttpRequest();
    xhttp.onreadystatechange = function() {
@@ -90,12 +90,12 @@
    xhttp.open("GET", "d_cart.php", true);
    xhttp.send();
 
-  },1000);
+
 
 
  }
  loadDoc();
-</script>
- -->
+</script> -->
+
 
 </html>
