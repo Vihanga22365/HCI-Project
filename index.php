@@ -247,7 +247,7 @@
               <h5><a href="">Classic Culture Triangle</a></h5>
               <p>3 Days private Tour</p>
               <p style="margin-bottom: 5%;">2 Nights Accommodations </p>
-              <a href="" class="btn btn-primary btn-hover mt-auto" style="width: 100%;"> FROM £245.00 PP </a>
+              <a href="MoreDetails11.php" class="btn btn-primary btn-hover mt-auto" style="width: 100%;"> FROM £245.00 PP </a>
             </div>
           </div>
 
@@ -257,7 +257,7 @@
               <h5><a href="">Culture Triangle and Kandy</a></h5>
               <p>4 Days private Tour</p>
               <p style="margin-bottom: 5%;">3 Nights Accommodations</p>
-              <a href="" class="btn btn-primary btn-hover mt-auto" style="width: 100%;"> FROM £280.00 PP </a>
+              <a href="MoreDetails11.php" class="btn btn-primary btn-hover mt-auto" style="width: 100%;"> FROM £280.00 PP </a>
             </div>
           </div>
 
@@ -267,7 +267,7 @@
               <h5><a href="">Culture Triangle, Kandy & Safari</a></h5>
               <p>6 Days private Tour</p>
               <p style="margin-bottom: 5%;">5 Nights Accommodations </p>
-              <a href="" class="btn btn-primary btn-hover mt-auto" style="width: 100%;"> FROM £362.00 PP </a>
+              <a href="MoreDetails11.php" class="btn btn-primary btn-hover mt-auto" style="width: 100%;"> FROM £362.00 PP </a>
             </div>
           </div>
 
@@ -277,7 +277,7 @@
               <h5><a href="">Best of Sri Lanka Budget</a></h5>
               <p>14 Days private Tour</p>
               <p style="margin-bottom: 5%;">13 Nights Accommodations </p>
-              <a href="" class="btn btn-primary btn-hover mt-auto" style="width: 100%;"> FROM £595.00 PP </a>
+              <a href="MoreDetails11.php" class="btn btn-primary btn-hover mt-auto" style="width: 100%;"> FROM £595.00 PP </a>
             </div>
           </div>
 
@@ -287,7 +287,7 @@
               <h5><a href="">Best of Sri Lanka affortable</a></h5>
               <p>14 Days private Tour</p>
               <p style="margin-bottom: 5%;">13 Nights Accommodations </p>
-              <a href="" class="btn btn-primary btn-hover mt-auto" style="width: 100%;"> FROM £845.00 PP </a>
+              <a href="MoreDetails11.php" class="btn btn-primary btn-hover mt-auto" style="width: 100%;"> FROM £845.00 PP </a>
             </div>
           </div>
 
@@ -297,7 +297,7 @@
               <h5><a href="">Best of Sri Lanka Luxury</a></h5>
               <p>14 Days private Tour</p>
               <p style="margin-bottom: 5%;">13 Nights Accommodations </p>
-              <a href="" class="btn btn-primary btn-hover mt-auto" style="width: 100%;"> FROM £999.00 PP </a>
+              <a href="MoreDetails11.php" class="btn btn-primary btn-hover mt-auto" style="width: 100%;"> FROM £999.00 PP </a>
             </div>
           </div>
 
@@ -331,7 +331,7 @@
           <h3 style="text-align: center;">Elephant Orphanage</h3>
           <h5 style="text-align: center;">Departure Daily  at 07:30hrs from Bentota</h5>
           <div align="center">
-            <a href=""  class="btn btn-primary" style="width: 30%; margin-top: 3%;"> Book Now </a>
+            <a href="DayTrips_ExcursionForm11.php"  class="btn btn-primary" style="width: 30%; margin-top: 3%;"> Book Now </a>
           </div>
         </div>
 

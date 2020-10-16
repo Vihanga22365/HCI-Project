@@ -47,7 +47,7 @@
         <ul>
           <li class="active"><a href="index.php"> Home </a></li>
           <li ><a href="place_to_visit.php"> Place to Visit </a></li>
-          <li ><a href="">Tour Details</a></li>
+          <li ><a href="MoreDetails11.php">Tour Details</a></li>
           <li  class="drop-down"><a href="">Booking</a>
             <ul>
               <li><a href="booking.php">Taxi Booking</a></li>
@@ -55,7 +55,7 @@
               <li><a href="trainTickets.php">Train Ticket</a></li>
             </ul>
           </li>
-          <li ><a href="">Day Trips </a></li>
+          <li ><a href="DayTrips_ExcursionForm11.php">Day Trips </a></li>
           <li ><a href="contact.php">Contact Us</a></li>
 
            
