@@ -408,7 +408,7 @@
 				document.getElementById('colombo').style.display = 'none';
 				document.getElementById('gampaha').style.display = 'none';
 				document.getElementById('kaluthara').style.display = 'none';
-				alert(sec);
+				//alert(sec);
 			}
 
 			if (sec == 'anuradhapura') {

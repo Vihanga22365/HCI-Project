@@ -31,7 +31,7 @@
 
     <div class="d-flex justify-content-between align-items-center">
       <ol>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li>Train Tickets</li>
       </ol>
     </div>
@@ -108,7 +108,7 @@
                         <div class="card">
                             <div id="headingOne" role="tab" class="card-header">
                                 <h4 class="card-title">
-                                    <a style="color: blue;" aria-controls="collapseOne" aria-expanded="true" href="#collapseOne"
+                                    <a style="color: blue; font-size: 25px;" aria-controls="collapseOne" aria-expanded="true" href="#collapseOne"
                                        data-parent="#accordion" aria-expanded="true"  data-toggle="collapse" >
                                        COLOMBO FORT - PERADENIYA
                                     </a>
@@ -285,7 +285,7 @@
                         <div class="card">
                             <div id="headingTwo" role="tab" class="card-header">
                                 <h4 class="card-title">
-                                    <a style="color: blue" aria-controls="collapseTwo" aria-expanded="false" href="#collapseTwo"
+                                    <a style="color: blue; font-size: 25px; text-transform: uppercase;" aria-controls="collapseTwo" aria-expanded="false" href="#collapseTwo"
                                        data-parent="#accordion" aria-expanded="true"  data-toggle="collapse"  class="collapsed">
                                         Colombo Front-Kandy
                                     </a>
@@ -457,7 +457,7 @@
                         <div class="card">
                             <div id="headingThree" role="tab" class="card-header">
                                 <h4 class="card-title">
-                                    <a style="color: blue;" aria-controls="collapseThree" aria-expanded="false" href="#collapseThree"
+                                    <a style="color: blue; font-size: 25px;" aria-controls="collapseThree" aria-expanded="false" href="#collapseThree"
                                        data-parent="#accordion" aria-expanded="true"  data-toggle="collapse"  class="collapsed">
                                        COLOMBO FORT - HATTON 
                                     </a>
@@ -591,7 +591,7 @@
                         <div class="card">
                             <div id="heading_04" role="tab" class="card-header">
                                 <h4 class="card-title">
-                                    <a style="color: blue;" aria-controls="collapse_04" aria-expanded="false" href="#collapse_04"
+                                    <a style="color: blue; font-size: 25px;" aria-controls="collapse_04" aria-expanded="false" href="#collapse_04"
                                        data-parent="#accordion" aria-expanded="true"  data-toggle="collapse"  class="collapsed">
                                        COLOMBO FORT - NANUOYA
                                     </a>
@@ -741,7 +741,7 @@
                         <div class="card">
                             <div id="heading_05" role="tab" class="card-header">
                                 <h4 class="card-title">
-                                    <a style="color: blue;" aria-controls="collapse_05" aria-expanded="false" href="#collapse_05"
+                                    <a style="color: blue; font-size: 25px;" aria-controls="collapse_05" aria-expanded="false" href="#collapse_05"
                                        data-parent="#accordion" aria-expanded="true"  data-toggle="collapse"  class="collapsed">
                                        COLOMBO FORT - HAPUTALE
                                     </a>
@@ -828,7 +828,7 @@
                             <div id="heading_06" role="tab" class="card-header" >
                                 <h4 class="card-title" >
                                     <a aria-controls="collapse_06" aria-expanded="false" href="#collapse_06"
-                                       data-parent="#accordion" aria-expanded="true"  data-toggle="collapse"  class="collapsed" style="color: blue;">
+                                       data-parent="#accordion" aria-expanded="true"  data-toggle="collapse"  class="collapsed" style="color: blue; font-size: 25px;">
                                      NANUOYA-BADULLA <h4 style="color: red; text-transform:lowercase;">Please note that trains have only limited availability<h4>
                                     </a>
                                 </h4>

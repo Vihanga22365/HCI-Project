@@ -33,9 +33,10 @@
 
         <div class="d-flex justify-content-between align-items-center">
           <ol>
-            <li><a href="index.html">Home
+            <li><a href="index.php">Home
             
             </a></li>
+            <li><a href="coachTours1.php">Coach Tours</a></li>
             <li>Coach Tickets</li>
           </ol>
         </div>
