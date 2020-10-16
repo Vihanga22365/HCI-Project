@@ -45,7 +45,7 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.php"> Home </a></li>
+          <li ><a href="index.php"> Home </a></li>
           <li ><a href="place_to_visit.php"> Place to Visit </a></li>
           <li ><a href="">Tour Details</a></li>
           <li  class="drop-down"><a href="">Booking</a>
