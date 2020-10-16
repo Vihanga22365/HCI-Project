@@ -1,18 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<?php 
+include'header.php';
+?>
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>HCI Project</title>
+
+
+	<title>jQuery Datepicker</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+	<script src="js/jquery-1.12.4.js"></script>
+	<script src="js/jquery-ui.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
 
 </head>
-
 <body>
+Choose Date: <input type="text" name="select_date" id="date" style="margin-top: 20%;">
+<script>
+  $(document).ready(function(){
+    var minDate = new Date();
+    $("#date").datepicker({
+      showAnim: 'drop',
+      numberOfMonth: 1,
+      minDate : minDate,
+      dateFormat:'yy/mm/dd',
 
 
-    <!-- ======= Footer ======= -->
+    });
+  });
+</script>
+<br><br><br><br><br>
+   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -44,7 +64,7 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Tour Packages</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Day Trips / Excursions</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="booking.php">Taxi Booking</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Taxi Booking</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="place_to_visit.php">Place To Visit</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="CoachTicket.php">Coach Tour</a></li>
             </ul>
@@ -55,8 +75,8 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="terms.php">Terms & Conditions</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="privacy.php">Privacy Policy</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="faq.php">FAQ</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="contact.php">Contact Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">FAQ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact Us</a></li>
             </ul>
           </div>
 
@@ -69,20 +89,6 @@
 
   </footer><!-- End Footer -->
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
   
 </body>
 
